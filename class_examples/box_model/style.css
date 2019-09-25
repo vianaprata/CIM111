@@ -1,0 +1,48 @@
+/* * is for everything */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 21px;
+  line-height: 1.7;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: pink;
+  margin: 0;
+  padding-top: 15%;
+}
+
+main {
+  background-color: purple;
+  width:90vw;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+article.my_box, .my_box {
+width: 100%;
+height: 100%;
+  color: pink;
+  margin: 0 auto;
+  text-align:center;
+}
+
+h1 {
+ background-color: grey;
+ width:35vw;
+ height: 32.5vh;
+ margin: auto;
+ border: 10px solid blue;
+ border-radius: 300px;
+ padding-top: 10%;
+ /* text-align: 20%; */
+ /* padding-top could use to try and center by bringing text down*/
+ /* text-align: center; */
+}
+
+/* vw is on whatever percentage of the screen it is/ vw (v weight) vh(for v height)*/
+/* margin auto centers it, and margin 0 removes border */
