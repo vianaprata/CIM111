@@ -1,0 +1,53 @@
+html {
+  font-size: 20px;
+  line-height:1.7;
+  font-family: sans-serif;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-areas:
+ "title title title"
+  "yellow yellow red"
+  /* "yellow yellow ." */
+  "blue blue blue";
+  /* this formats where in the page the boxes will be, how many times we put the name
+  of each box determines the division of the page */
+  /* . creates an empty space */
+  grid-gap: 0rem;
+  grid-row-gap: 0rem;
+  /* rems are proportionate units, rem looks for the font size in the html and does
+  all other shapes in proportion to that */
+  /* the rem will be proportionate to the font size */
+}
+/* this already turns into a grid display */
+
+.box {
+  border: 1px solid: #00000;
+  font-family: monospace;
+}
+
+.title {
+  grid-area: title;
+  background-color: violet;
+  min-height: 100px;
+  text-align:center;
+}
+
+.yellow {
+  grid-area: yellow;
+  background-color: pink;
+  min-height: 300px;
+}
+
+.red {
+  grid-area: red;
+  background-color: grey;
+  min-height: 300px;
+}
+
+.blue {
+  grid-area: blue;
+  background-color: purple;
+  min-height: 300px;
+}

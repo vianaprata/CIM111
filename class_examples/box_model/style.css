@@ -10,6 +10,7 @@ html {
   font-family: sans-serif;
 }
 
+
 body {
   background-color: pink;
   margin: 0;
@@ -17,9 +18,10 @@ body {
 }
 
 main {
-  background-color: purple;
+  background-color: pink;
   width:90vw;
-  height: 50vh;
+  /* height: 50vh; */
+  /* comment out the height so it adjusted to a smaller screen */
   margin: 0 auto;
 }
 
@@ -33,15 +35,22 @@ height: 100%;
 
 h1 {
  background-color: grey;
- width:35vw;
- height: 32.5vh;
+ width:60vw;
+ height: 30vh;
  margin: auto;
- border: 10px solid blue;
- border-radius: 300px;
+ border: 10px solid pink;
+ border-radius: 80%;
  padding-top: 10%;
  /* text-align: 20%; */
- /* padding-top could use to try and center by bringing text down*/
+ /* padding-top could uses to try and center by bringing text down*/
  /* text-align: center; */
+}
+
+section {
+  margin: auto;
+  text-align: center;
+  font-family: 'turret road', sans-serif;
+  color: grey;
 }
 
 /* vw is on whatever percentage of the screen it is/ vw (v weight) vh(for v height)*/

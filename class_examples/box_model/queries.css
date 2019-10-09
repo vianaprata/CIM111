@@ -1,0 +1,24 @@
+/* @media only screen and (max-width: 900px) {
+  body {
+    background-color: grey;
+  }
+} */
+
+/* this way the background color chenages in response to the size of the screen */
+/* changes file to be responsive */
+
+@media only screen and (min-width: 300px) and (max-width: 800px){
+  body, main {
+    background-color: black;
+    color: black;
+    border: 0px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px){
+  section {
+    background-color: black;
+    color: pink;
+    border: 0px;
+  }
+}
