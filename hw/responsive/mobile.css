@@ -15,7 +15,8 @@ html {
  "title title title"
   "yellow yellow yellow"
   /* "yellow yellow ." */
-  "red blue blue"
+"red red red"
+  "blue blue blue"
   "orange orange orange";
   /* this formats where in the page the boxes will be, how many times we put the name
   of each box determines the division of the page */
@@ -80,7 +81,7 @@ h2 {
   min-height: 200px;
   font-family: 'Poppins', sans-serif;
   color: #410E38 ;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .blue {
