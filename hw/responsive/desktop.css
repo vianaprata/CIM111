@@ -144,7 +144,33 @@ footer {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   background-color:   #f9f62e  ;
-  min-height: 200px;
+  height: 160px;
   color: #410E38 ;
 }
+}
+@media only screen and  (max-width: 800px) {
+    .grid_container {
+      display: grid;
+      grid-template-areas:
+     "title title title"
+      "yellow yellow yellow"
+      /* "yellow yellow ." */
+      "red red red"
+      "blue blue blue"
+      "orange orange orange" ;
+      grid-gap: 0rem;
+      grid-row-gap: 0rem;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and  (max-width: 800px) {
+    .red {
+      grid-area: red;
+      background-color:   #82c209  ;
+      /* min-height: 200px; */
+      font-family: 'Poppins', sans-serif;
+      color: #410E38 ;
+      font-size: 20px;
+      width: auto;
+    }
 }
