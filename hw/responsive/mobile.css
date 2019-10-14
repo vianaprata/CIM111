@@ -2,12 +2,15 @@ html {
   font-size: 20px;
   line-height:1.7;
   /* font-family: sans-serif; */
+  background-color: #093368;
+
 }
 
 * {
-  margin: 0;
+  margin: 10px;
   padding: 0;
 }
+
 
 .grid_container {
   display: grid;
@@ -15,9 +18,8 @@ html {
  "title title title"
   "yellow yellow yellow"
   /* "yellow yellow ." */
-  "red red red"
-  "blue blue blue"
-  "orange orange orange";
+  "red blue blue"
+  "orange orange orange" ;
   /* this formats where in the page the boxes will be, how many times we put the name
   of each box determines the division of the page */
   /* . creates an empty space */
@@ -43,7 +45,7 @@ html {
 
 .title {
   grid-area: title;
-  background-color:   #18c577  ;
+  background-color: #18c577 ;
   min-height: 100px;
   text-align:center;
   font-size: 20px;
@@ -51,6 +53,7 @@ html {
   font-family: 'Poppins', monospace;
   text-transform: capitalize;
 }
+
 
 h1 {
   margin-bottom: 5px;
@@ -66,7 +69,7 @@ h2 {
 
 .yellow {
   grid-area: yellow;
-  background-color:   #15b855  ;
+  background-color: #15b855;
   min-height: 400px;
   text-align:center;
   /* color: #A81F91   ; */
@@ -74,6 +77,7 @@ h2 {
   font-family: 'Poppins', monospace;
   font-size: 20px;
 }
+
 
 .red {
   grid-area: red;
@@ -105,6 +109,16 @@ h2 {
   font-size: 20px;
 }
 
+.purple {
+  grid-area: orange;
+  background-color:  #dbdb25 ;
+  min-height: 50px;
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+  color: #410E38 ;
+  font-size: 20px;
+}
+
 nav {
   display: inline-block;
   font-size: 20px;
@@ -128,6 +142,6 @@ footer {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   background-color:   #f9f62e  ;
-  height: 50px;
+  min-height: 200px;
   color: #410E38 ;
 }
