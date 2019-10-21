@@ -1,0 +1,86 @@
+html, body {
+  background-color: #F8E7F5 ;
+    /* padding: 10x; */
+}
+
+section#centered, #centered {
+  width: 600px;
+  /* margin: 10px; this sets to all four sides */
+  margin: 0 auto;
+  /* set the margin to be 0 on top and bottom , and auto on left and right/ 0 auto centers in the middle */
+  /* border: 0px solid: pink; */
+  /* max-width: 90;
+  min-width: 80; for later */
+}
+
+section#paragraphone, #paragraphone {
+  width: 600px;
+  margin: 0 auto;
+  color: #A81F91   ;
+  font-family: 'turret road', sans-serif;
+  font-style: centered;
+}
+
+/* element.style {
+    /* margin-left: -51px;
+    } can use this, to move left is negative and right positive from the center */
+/*
+  { text-indent: -50px;
+    } or this other way to move it around, again negative is left and positive is right
+*/
+
+/* add this and test on chrome/inspect before to check how it works */
+
+section#centertable, #centertable {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 20;
+}
+
+section#centerphoto, #centerphoto {
+  width: 600px;
+  margin: 0 auto ;
+}
+
+h1 {
+  color: #410E38  ;
+  font-family: 'Inconsolata', sans-serif;
+  text-transform: capitalize;
+}
+
+p {
+  color: #A81F91   ;
+  font-family: 'turret road', sans-serif;
+ }
+
+h3 {
+  color: #410E38   ;
+  font-family: 'Inconsolata', sans-serif;
+}
+
+h4 {
+  color: #410E38 ;
+  font-family: 'Inconsolata', sans-serif;
+}
+
+a {
+  color: #410E38;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #410E38  ;
+}
+
+li {
+  font-family: 'turret road', sans-serif;
+}
+
+address {
+  font-family: 'turret road', sans-serif;
+}
+
+table {
+  font-family: 'turret road', sans-serif;
+}
+/* to comment hidden in css*/
