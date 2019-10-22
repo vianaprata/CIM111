@@ -17,9 +17,9 @@ section#introduction, #introduction {
 }
 
 h1 {
-  color: #410E38  ;
+  color: #410E38 ;
   font-family: 'Inconsolata', monospace;
-  text-align:center;
+  text-align: center;
   font-size: 40px;
 }
 
@@ -47,18 +47,18 @@ section#centerphoto, #centerphoto {
 
 section#education, #education {
 font-family: 'Roboto Slab', serif;
-  color: #A81F91   ;
+  color: #A81F91 ;
 }
 
 
 section#internships, #insternships {
   font-family: 'Roboto Slab', serif;
-  color: #A81F91   ;
+  color: #A81F91  ;
 }
 
 section#skills, #skills {
   font-family: 'Roboto Slab', serif;
-  color: #A81F91   ;
+  color: #A81F91  ;
 }
 
 section#address, #address {
