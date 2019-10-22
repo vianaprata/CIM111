@@ -1,11 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="author" content="Viana Prata">
-    <meta name="description" content="My resume">
-    <meta name="keywords" content="HTML,tags">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> Viana Barcellos Prata </title>
 
 
@@ -24,148 +20,123 @@
     </style> -->
 
 <!-- this other way styles everything you specify in the style.css file -->
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.google.com/specimen/Inconsolata" rel="stylesheet">
-<link href="https://fonts.google.com/specimen/Turret+Road" rel="stylesheet">
-
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Slab&display=swap" type="text/css" rel="stylesheet">
   </head>
 
 <!-- the id is for style, put tyle1 in all paragraphs -->
-  <body>
-    <main>
-    <section id="centered">
-    <h1> My Resume </h1>
-    </section id="centered">
-    <section id="paragraphone">
-    <p> <b> I am a transfer student from Brazil who is eager to learn from new opportunities.</b> </p>
-  </section>
+<body>
+  <!-- <ol>
+    <li> Lay out all your html (and grid container)</li>
+    <li> Give everything a grid name using the "grid-area:" css property </li>
+    <li> Give the grid container a css property of "display: grid" </li>
+    <li> Use "grid-template-areas" to lay out all your grid areas by name </li>
+    </ol> -->
+    <!-- <a href="http://google.com"><img src="../../hw/resume/images/Me.JGP" alt=""> </a> -->
+<!-- we can link photos, pdfs, etc. the href to google then the picture is linked
+to google, if you click on the picture then google appears -->
+<!-- this creates the outer box that outlines the file -->
+<!-- inside this outer box we create the inner boxes, 3 we had assigned -->
+<main>
+<section id="introduction">
+<h1> My Resume </h1>
+<p> <b> I am a transfer student from Brazil who is eager to learn from new opportunities.</b> </p>
+</section>
+
 </main>
- <!-- this color changes, changes just this espicific thing -->
-<br>
-    <section>
-      <h3 style= "color: #410E38 "> Education</h3>
-    <p style= "color: #A81F91 " > <ul>
-      <li style= "color: #A81F91"> <i> The British School of Rio de Janeiro </li> </i>
-      <li style= "color: #A81F91"> <i> University of Miami: Major in Economics & Minor in Political Science </i> </li>
-    </ul>
-    </p>
+
+<section id="education">
+  <h3> Education</h3>
+ <ul>
+  <li>  <i> The British School of Rio de Janeiro </li> </i>
+  <li> <i> University of Miami: Major in Economics & Minor in Political Science </i> </li>
+</ul>
   </section>
 
-<br>
-  <section>
+  <section id="internships">
     <h3>Internships </h3>
 
-  <h4> <i> Pacifico Asset - July 2019 </i> </h4>
+    <h4> <i> Pacifico Asset - July 2019 </i> </h4>
         <p> Worked with all areas of the asset management fund, focusing on macroeconomics. Utilized Bloomberg, Microsoft Excel and Microsoft Access to compile investment data. Assisted shareholders with day-to-day tasks.
-  <h4> <i> Dufry - June 2019 </i> </h4>
+    <h4> <i> Dufry - June 2019 </i> </h4>
        <p> Stayed in the financial area of the company, where I helped organize paychecks and leasing contracts. </p>
-  <h4> <i> Liaisons Corporation - January 2019 to April 2019 </i> </h4>
+    <h4> <i> Liaisons Corporation - January 2019 to April 2019 </i> </h4>
     <p> Interned in event planning, worked on the planning and organization of corporate events. Helped assemble the financial balances and kept track of vendors.
+
+    </section>
+
+    <section id="skills">
+      <h3> Skills </h3>
+      <ul>
+      <li> <i> Fluent in English <i> </li>
+      <li> <i> Fluent in Portuguese </i> </li>
+      <li> <i> Conversational Spanish </i> </li>
+      <li> <i> Conversational French </i> </li>
+      <li> <i> Event Management Skills </i> </li>
+      <li> <i> Sales skills </i> </li>
+      <li> <i> Excel and Microsoft Office </i> </li>
+      </ul>
+      </section>
+
+      <section id="address">
+        <h3> My information:</h3>
+            <address>
+              vianaprata@gmail.com <br>
+              1320 S Dixie Hwy, Coral Gables <br>
+              +17864771397 <br>
+              </address>
+      </section>
       <br>
+
+<section id="image">
+      <img src="images/Me.JPG" alt="My Picture">
 </section>
 
-<br>
-<section>
-  <h3 style= "color: #410E38   "> Skills </h3>
-<p style= "color: #A81F91   "> <ul style= "color: #A81F91    ">
-  <li> <i> Fluent in English <i> </li>
-  <li> <i> Fluent in Portuguese </i> </li>
-  <li> <i> Conversational Spanish </i> </li>
-  <li> <i> Conversational French </i> </li>
-  <li> <i> Event Management Skills </i> </li>
-  <li> <i> Sales skills </i> </li>
-  <li> <i> Excel and Microsoft Office </i> </li>
-</ul>
-</p>
-</section>
-
-<!-- <br> breaks the text to start a new line (one more creates a new space) also <p> few spaces </p>, we can do this or start a new paragraph. -->
-<!-- ordered list: <ol> can also make lists by making more paragraphs.
-<li> number one in list </li> -->
-<!-- unordered list : <ul>
-<li> item </li>
-</ul> -->
-<article>
-<!-- <b> makes it bold </b> / <i> Makes it Italic </i> -->
-<p style= "color: #410E38  "> <b> My information:</b> </p>
-    <address style= "color: #A81F91 ">
-      vianaprata@gmail.com <br>
-      1320 S Dixie Hwy, Coral Gables <br>
-      +17864771397 <br>
-      </address>
+      <article id="centertable">
       <br>
-</article>
-<br>
-<!-- <p> My information: </p> -->
-<!-- link to another page: after href is where it will go, after is how is shows in the page -->
+      <table>
+        <tr>
+          <th> Available Working time </th>
+          <th> Classes this semester </th>
+        </tr>
+      <tr>
+      <td> Friday to Sunday  </td>
+      <td>  Web Lab </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> International Monetary System </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> English 105 </td>
+      </tr>
+      <tr>
+        <td> </td>
+           <td> Germany since 1815 </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td>  Microenconomic Theory </td>
+      </tr>
+      <tr>
+        <td> </td>
+       <td>  Mass media and politics </td>
+      </tr>
+      </table>
 
-<section>
-<a href="https://www.linkedin.com/in/viana-barcellos-prata-125362165/">My Linkedin</a>
-<br>
-<br>
-<a href="https://www.instagram.com/vianaprata/">My Instagram</a>
-<br>
-</section>
+      </article>
 
-<!-- image : drag the image into the image folder and then specify in src - put size so it does not come huge-->
-<!-- <a href="Images/me.JGP">Picture</a> This links the picture to open separately like the website -->
+      <footer>
+      <a href="https://www.linkedin.com/in/viana-barcellos-prata-125362165/">My Linkedin</a>
+      <br>
+      <br>
+      <a href="https://www.instagram.com/vianaprata/">My Instagram</a>
+      <br>
+    </footer>
 
-<section id="centerphoto">
-<br>
-<img src="images/Me.JPG" alt="My Picture" width= 300 height= 400>
-<br>
-</section id="centerphoto">
-
-<!-- <table>
-  <tr> this is for the row
-    <th> Name </th> this is for the header
-    <th> Birthday </th>
-  </tr>
-  Sideways :
-<tr>
-<th>  header </th>
-<td> content </td>
-</tr>
- -->
-<article id="centertable">
-<br>
-<table style= "color: #DA73C9">
-  <tr>
-    <th> Available Working time </th>
-    <th> Classes this semester </th>
-  </tr>
-<tr>
-<td> Friday to Sunday  </td>
-<td>  Web Lab </td>
-</tr>
-<tr>
-  <td> </td>
-  <td> International Monetary System </td>
-</tr>
-<tr>
-  <td> </td>
-  <td> English 105 </td>
-</tr>
-<tr>
-  <td> </td>
-     <td> Germany since 1815 </td>
-</tr>
-<tr>
-  <td> </td>
-  <td>  Microenconomic Theory </td>
-</tr>
-<tr>
-  <td> </td>
- <td>  Mass media and politics </td>
-</tr>
-</table>
-
-</article id="centertable">
-<!-- <div>
-  <p> Hey </p>
-</div>  -->
-<!-- div adds structure and movement, to group content. Each work experience or education should have one div/ has to be inside a div -->
-
-<!-- <span> surrounds something to modify it later </span>  divs are for big contents and spn for smaller phrases for example-->
-  </body>
+      <!-- different names with two names to style each individually <thead>
+        way we want
+      </thead> -->
+</body>
 </html>

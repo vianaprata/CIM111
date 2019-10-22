@@ -3,7 +3,7 @@ html, body {
     /* padding: 10x; */
 }
 
-section#centered, #centered {
+section#introduction, #introduction {
   width: 600px;
   /* margin: 10px; this sets to all four sides */
   margin: 0 auto;
@@ -11,14 +11,16 @@ section#centered, #centered {
   /* border: 0px solid: pink; */
   /* max-width: 90;
   min-width: 80; for later */
+  color: #A81F91   ;
+  font-family: 'Roboto Slab', serif;
+  font-style: centered;
 }
 
-section#paragraphone, #paragraphone {
-  width: 600px;
-  margin: 0 auto;
-  color: #A81F91   ;
-  font-family: 'turret road', sans-serif;
-  font-style: centered;
+h1 {
+  color: #410E38  ;
+  font-family: 'Inconsolata', monospace;
+  text-align:center;
+  font-size: 40px;
 }
 
 /* element.style {
@@ -35,6 +37,7 @@ section#centertable, #centertable {
   width: 600px;
   margin: 0 auto;
   font-size: 20;
+  font-family: 'Roboto Slab', serif;
 }
 
 section#centerphoto, #centerphoto {
@@ -42,45 +45,70 @@ section#centerphoto, #centerphoto {
   margin: 0 auto ;
 }
 
-h1 {
-  color: #410E38  ;
-  font-family: 'Inconsolata', sans-serif;
-  text-transform: capitalize;
+section#education, #education {
+font-family: 'Roboto Slab', serif;
+  color: #A81F91   ;
 }
 
-p {
+
+section#internships, #insternships {
+  font-family: 'Roboto Slab', serif;
   color: #A81F91   ;
-  font-family: 'turret road', sans-serif;
- }
+}
+
+section#skills, #skills {
+  font-family: 'Roboto Slab', serif;
+  color: #A81F91   ;
+}
+
+section#address, #address {
+  font-family: 'Roboto Slab', serif;
+  color: #A81F91   ;
+}
 
 h3 {
   color: #410E38   ;
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
+
+section#image, #image {
+text-align: center;
+  width: 300;
+  height: 400;
+}
+
+section#centertable, #centertable {
+  font-family: 'Roboto Slab', serif;
+  color: #A81F91   ;
+}
+/* to comment hidden in css*/
+
+
+p {
+  color: #A81F91   ;
+  font-family: 'Roboto Slab', serif;
+ }
+
 
 h4 {
   color: #410E38 ;
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
+
+
 
 a {
   color: #410E38;
   text-decoration: none;
+  font-family: 'Roboto Slab', serif;
 }
 
 a:visited {
   color: #410E38  ;
+  font-family: 'Roboto Slab', serif;
 }
 
-li {
-  font-family: 'turret road', sans-serif;
-}
-
-address {
-  font-family: 'turret road', sans-serif;
-}
-
-table {
-  font-family: 'turret road', sans-serif;
-}
-/* to comment hidden in css*/
+footer {
+  color: #A81F91   ;
+  font-family: 'Roboto Slab', serif;
+ }
