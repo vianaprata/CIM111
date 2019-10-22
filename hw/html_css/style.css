@@ -2,6 +2,7 @@ html, body {
   background-color: #F8E7F5 ;
     /* padding: 10x; */
 }
+/* to comment hidden in css*/
 
 section#introduction, #introduction {
   width: 600px;
@@ -33,11 +34,12 @@ h1 {
 
 /* add this and test on chrome/inspect before to check how it works */
 
-section#centertable, #centertable {
+section#table, #table {
   width: 600px;
   margin: 0 auto;
-  font-size: 20;
+  font-size: 15px;
   font-family: 'Roboto Slab', serif;
+  color: #A81F91 ;
 }
 
 section#centerphoto, #centerphoto {
@@ -74,12 +76,6 @@ h3 {
 section#image, #image {
 text-align: center;
 }
-
-section#centertable, #centertable {
-  font-family: 'Roboto Slab', serif;
-  color: #A81F91   ;
-}
-/* to comment hidden in css*/
 
 
 p {
