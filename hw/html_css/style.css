@@ -1,10 +1,12 @@
-html, body {
-  background-color: #F8E7F5 ;
-    /* padding: 10x; */
+html,
+body {
+  background-color: #f8e7f5;
+  /* padding: 10x; */
 }
 /* to comment hidden in css*/
 
-section#introduction, #introduction {
+section#introduction,
+#introduction {
   width: 600px;
   /* margin: 10px; this sets to all four sides */
   margin: 0 auto;
@@ -12,14 +14,14 @@ section#introduction, #introduction {
   /* border: 0px solid: pink; */
   /* max-width: 90;
   min-width: 80; for later */
-  color: #A81F91   ;
-  font-family: 'Roboto Slab', serif;
+  color: #a81f91;
+  font-family: "Roboto Slab", serif;
   font-style: centered;
 }
 
 h1 {
-  color: #410E38 ;
-  font-family: 'Inconsolata', monospace;
+  color: #410e38;
+  font-family: "Inconsolata", monospace;
   text-align: center;
   font-size: 40px;
 }
@@ -34,75 +36,77 @@ h1 {
 
 /* add this and test on chrome/inspect before to check how it works */
 
-section#table, #table {
+section#table,
+#table {
   width: 600px;
   margin: 0 auto;
   font-size: 15px;
-  font-family: 'Roboto Slab', serif;
-  color: #A81F91 ;
+  font-family: "Roboto Slab", serif;
+  color: #a81f91;
 }
 
-section#centerphoto, #centerphoto {
+section#centerphoto,
+#centerphoto {
   width: 600px;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 
-section#education, #education {
-font-family: 'Roboto Slab', serif;
-  color: #A81F91 ;
+section#education,
+#education {
+  font-family: "Roboto Slab", serif;
+  color: #a81f91;
 }
 
-
-section#internships, #insternships {
-  font-family: 'Roboto Slab', serif;
-  color: #A81F91  ;
+section#internships,
+#insternships {
+  font-family: "Roboto Slab", serif;
+  color: #a81f91;
 }
 
-section#skills, #skills {
-  font-family: 'Roboto Slab', serif;
-  color: #A81F91  ;
+section#skills,
+#skills {
+  font-family: "Roboto Slab", serif;
+  color: #a81f91;
 }
 
-section#address, #address {
-  font-family: 'Roboto Slab', serif;
-  color: #A81F91   ;
+section#address,
+#address {
+  font-family: "Roboto Slab", serif;
+  color: #a81f91;
 }
 
 h3 {
-  color: #410E38   ;
-  font-family: 'Inconsolata', monospace;
+  color: #410e38;
+  font-family: "Inconsolata", monospace;
 }
 
-section#image, #image {
-text-align: center;
+section#image,
+#image {
+  text-align: center;
 }
-
 
 p {
-  color: #A81F91   ;
-  font-family: 'Roboto Slab', serif;
- }
-
-
-h4 {
-  color: #410E38 ;
-  font-family: 'Inconsolata', monospace;
+  color: #a81f91;
+  font-family: "Roboto Slab", serif;
 }
 
-
+h4 {
+  color: #410e38;
+  font-family: "Inconsolata", monospace;
+}
 
 a {
-  color: #410E38;
+  color: #410e38;
   text-decoration: none;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 a:visited {
-  color: #410E38  ;
-  font-family: 'Roboto Slab', serif;
+  color: #410e38;
+  font-family: "Roboto Slab", serif;
 }
 
 footer {
-  color: #A81F91   ;
-  font-family: 'Roboto Slab', serif;
- }
+  color: #a81f91;
+  font-family: "Roboto Slab", serif;
+}
