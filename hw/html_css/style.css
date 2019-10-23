@@ -85,6 +85,11 @@ section#image,
   text-align: center;
 }
 
+img {
+  width: 250px;
+  height: 300px;
+}
+
 p {
   color: #a81f91;
   font-family: "Roboto Slab", serif;
