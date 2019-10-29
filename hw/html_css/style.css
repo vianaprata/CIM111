@@ -5,9 +5,9 @@ body {
 }
 /* to comment hidden in css*/
 
-:hover {
+/* :hover {
   css declarations;
-}
+} */
 
 section#introduction,
 #introduction {
@@ -20,7 +20,6 @@ section#introduction,
   min-width: 80; for later */
   color: #a81f91;
   font-family: "Roboto Slab", serif;
-  font-style: centered;
 }
 
 h1 {
@@ -91,17 +90,17 @@ section#skills,
   color: #a81f91;
 }
 
-section#address,
-#address {
-  font-family: "Roboto Slab", serif;
-  color: #a81f91;
-}
 
 .my {
-  border: 1px solid: #00000;
+  border: 1px;
   font-family: monospace;
   text-align: center;
   margin: 0 auto;
+}
+
+.address {
+  font-family: "Roboto Slab", serif;
+  color: #a81f91;
 }
 
 .table {
