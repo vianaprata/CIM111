@@ -1,0 +1,30 @@
+html {
+  font-size: 20px;
+  line-height:1.7;
+  /* font-family: sans-serif; */
+  background-color:#5EC2D7;
+
+}
+
+* {
+  margin: 10px;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(4,20px); */
+  grid-template-areas:
+  "travel travel travel "
+  "garden circus"
+  /* "yellow yellow ." */
+  "park palaceone "
+  "palacetwo london " ;
+  /* this formats where in the page the boxes will be, how many times we put the name
+  of each box determines the division of the page */
+  /* . creates an empty space */
+  grid-gap: 0rem;
+  grid-row-gap: 0rem;
+	/* grid-template-rows: 1fr 1fr; */
+}

@@ -5,6 +5,10 @@ body {
 }
 /* to comment hidden in css*/
 
+:hover {
+  css declarations;
+}
+
 section#introduction,
 #introduction {
   width: 600px;
@@ -26,6 +30,32 @@ h1 {
   font-size: 40px;
 }
 
+h1:hover {
+  color:#A51111;
+}
+
+h3:hover {
+  color:#A51111;
+}
+
+h4:hover {
+  color:#A51111;
+}
+
+
+img {
+  width: 200px;
+  height: 250px;
+  /* border: 10px solid pink; */
+  border-radius: 80%;
+  /* padding-top: 10%; */
+  border-bottom: 10px;
+}
+
+section#image,
+#image {
+  text-align: center;
+}
 /* element.style {
     /* margin-left: -51px;
     } can use this, to move left is negative and right positive from the center */
@@ -36,25 +66,17 @@ h1 {
 
 /* add this and test on chrome/inspect before to check how it works */
 
-section#table,
-#table {
-  width: 600px;
-  margin: 0 auto;
-  font-size: 15px;
-  font-family: "Roboto Slab", serif;
-  color: #a81f91;
-}
 
-section#centerphoto,
-#centerphoto {
-  width: 600px;
-  margin: 0 auto;
+
+table:hover {
+  color: #4A0B82;
 }
 
 section#education,
 #education {
   font-family: "Roboto Slab", serif;
   color: #a81f91;
+
 }
 
 section#internships,
@@ -75,20 +97,30 @@ section#address,
   color: #a81f91;
 }
 
+.my {
+  border: 1px solid: #00000;
+  font-family: monospace;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.table {
+  width: 600px;
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+  color: #a81f91;
+}
+
+.websites {
+  color: #a81f91;
+  font-family: "Roboto Slab", serif;
+}
+
 h3 {
   color: #410e38;
   font-family: "Inconsolata", monospace;
 }
 
-section#image,
-#image {
-  text-align: center;
-}
-
-img {
-  width: 250px;
-  height: 300px;
-}
 
 p {
   color: #a81f91;
@@ -108,10 +140,5 @@ a {
 
 a:visited {
   color: #410e38;
-  font-family: "Roboto Slab", serif;
-}
-
-footer {
-  color: #a81f91;
   font-family: "Roboto Slab", serif;
 }
