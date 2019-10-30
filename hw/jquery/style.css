@@ -13,18 +13,50 @@ html {
 
 .container {
   display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr ;
   /* grid-template-columns: repeat(4,20px); */
   grid-template-areas:
-  "travel travel travel "
+  "travel travel"
   "garden circus"
-  /* "yellow yellow ." */
   "park palaceone "
-  "palacetwo london " ;
+  "london palacetwo "
+  "restaurants restaurants";
   /* this formats where in the page the boxes will be, how many times we put the name
   of each box determines the division of the page */
   /* . creates an empty space */
   grid-gap: 0rem;
   grid-row-gap: 0rem;
 	/* grid-template-rows: 1fr 1fr; */
+}
+
+.travel {
+  grid-area: travel;
+}
+
+.garden {
+  grid-area: garden;
+}
+
+.circus {
+  grid-area: circus;
+}
+
+.park {
+  grid-area: park;
+}
+
+.palaceone {
+  grid-area: palaceone;
+}
+
+.london {
+  grid-area: london;
+}
+
+.palacetwo {
+  grid-area: palacetwo;
+}
+
+.restaurants {
+  grid-area: restaurants;
 }
