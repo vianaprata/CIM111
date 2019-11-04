@@ -5,6 +5,7 @@
 		<title> Traveling to London </title>
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Liu+Jian+Mao+Cao|Livvic&display=swap" rel="stylesheet">
+		 <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
 	</head>
 	<body>
@@ -78,9 +79,80 @@
 	</section>
 	</div>
 
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
 
 		<script type="text/javascript">
+
+		var ldnClicked = false;
+		var tipsMouseover = false;
 			$(document).ready(function() {
+    $("#ldn").click(function() {
+			if (ldnClicked === false) {
+		// ldnClicked is one. We have to make the font small
+		$("#ldn").css("font-size", "80px");
+			 ldnClicked = true;
+
+			} else {
+				// ldnClicked is zero. We have to make the font big
+				// if the first part hold, do whatever is inside
+					 $("#ldn").css("font-size", "50px");
+					 ldnClicked = false;
+			}
+
+});
+// $("#covent").click(function() {
+
+// });
+$("#covent").mouseover(function() {
+	if (true)
+$("#covent").css("color", "purple");
+});
+$("#piccadilly").mouseover(function() {
+	if (true)
+$("#piccadilly").css("color", "purple");
+});
+$("#hyde").mouseover(function() {
+	if (true)
+$("#hyde").css("color", "purple");
+});
+$("#buckingham").mouseover(function() {
+	if (true)
+$("#buckingham").css("color", "purple");
+});
+$("#westminster").mouseover(function() {
+	if (true)
+$("#westminster").css("color", "purple");
+});
+$("#eye").mouseover(function() {
+	if (true)
+$("#eye").css("color", "purple");
+});
+
+$("#tips").mouseleave(function() {
+	if (true)
+$("#tips").css("font-family", "Shadows Into Light");
+});
+// 
+// $("#img1").click(funtion(){
+// 	$
+// })
+
+// $("#coventparagraph").html("<p> This is an amazing place to eat by at various restaurants. </p>");
+
+// if (tipsMouseleave === false) {
+// // ldnClicked is one. We have to make the font small
+// $("#tips").css("font-family", "Shadows Into Light");
+//  tipsMouseleave = true;
+//
+// } else {
+// 	// ldnClicked is zero. We have to make the font big
+// 	// if the first part hold, do whatever is inside
+// 		$("#tips").css("font-family", "Shadows Into Light");
+// 		 tipsMouseleave = false;
+// }
+//
+// });
+
 
 			});
 		</script>
