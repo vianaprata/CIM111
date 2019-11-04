@@ -108,6 +108,11 @@ html {
   grid-template-columns: 1fr 1fr;
 }
 
+/* .grid-chichetti {
+  display: grid;
+  grid-template-columns: 1fr;
+} */
+
 #imgchi {
   width: 300px;
   height: 200px;
@@ -146,6 +151,13 @@ p {
   font-family: "Livvic", monospace;
   font-size: 20px;
   color: #623050;
+}
+
+ol {
+  font-family: "Livvic", monospace;
+  font-size: 15px;
+  color: #623050;
+  
 }
 
 a {

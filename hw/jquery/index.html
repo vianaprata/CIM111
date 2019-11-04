@@ -12,9 +12,9 @@
 <div class="grid_container">
 		<header class="travel box">
 			<h1 id="ldn"> London</h1>
-			<p>The main places you should visit in London, my favourite city.</p>
+			<p id="pone" >The main places you should visit in London, my favourite city.</p>
 			<img id="img1" src="images/meandedo.JPG" alt="Me in London">
-			<p> Here is a picture of me in London last year </p>
+			<p> Here is a picture of me in London last year. </p>
 			<nav>
 				<a href="#covent">Covent Garden</a>
 				<a href="#piccadilly">Picadilly Circus</a>
@@ -28,53 +28,63 @@
 
 		<section class="garden box">
 		<h2 id="covent">Covent Garden</h2>
-		<p> The beautiful  </p>
+		<p> The beautiful covent Garden is full os street performers and delicious restayurants.  </p>
 		<img id= "imgcg" src="images/cg.jpg" alt="Covent">
 		</section>
 
 		<section class="circus box">
 		<h2 id="piccadilly">Piccadilly Circus</h2>
-		<p>The extraordinary </p>
+		<p> Piccadilly Circus is a beautiful place to walk around through stores and watch the big screens. </p>
 		<img id= "imgpc" src="images/pc.jpg" alt="Piccadilly">
 		</section>
 
 		<section class="park box">
 		<h2 id="hyde">Hyde Park</h2>
-		<p> The peaceful </p>
+		<p> The peaceful Hyde Park is located right in the middle of the city and is an amazing place to walk around on a sunny day and have a picnic. </p>
 		<img id= "imghp" src="images/hp.jpg" alt="Hyde Park">
 		</section>
 
 		<section class="palaceone box">
 		<h2 id="buckingham">Buckingham Palace</h2>
-		<p> The unique</p>
+		<p> The Buckingham Palace is a the perfect place to walk through the day, as it is surrounded by famous streets. </p>
 		<img id= "imgbp" src="images/bp.jpg" alt="Buckingham">
 		</section>
 
 		<section class="palacetwo box">
 		<h2 id="westminster"> Palace of Westminster</h2>
-		<p> The royal</p>
+		<p> The royal Palace of Westminster is a must go to place as it is a beautiful place to visit and represents a huge part of London's History. </p>
 		<img id= "imgpw" src="images/pw.jpg" alt="Westminster">
 		</section>
 
 		<section class="london box">
 		<h2 id="eye">London Eye</h2>
-		<p> To see London from above. </p>
+		<p> To London Eye is across form the Palac e of Westminster and is holds the most beautiful view of the entire city. </p>
 		<img id= "imgle" src="images/le.jpg" alt="London Eye">
 		</section>
 
 		<section class="restaurants box">
 		<h2 id="tips"> Must go to Restaurants</h2>
-		<p> My favorite restaurants in London and the one you must go to when you visit. Chichetti, Brunch at Granger & Co in Notting Hill, Hakkasan and Sushi Samba  </p>
+		<p> My favorite restaurants in London and the ones you must go to when you visit are Chichetti, Brunch at Granger & Co in Notting Hill, Hakkasan and Sushi Samba.  </p>
 		<section class="grid-restaurant">
 			<img id= "imgchi" src="images/cicchetti.jpg" alt="Cicchetti">
-			<p> The Cicchetti is a delicious Italian, the one in Piccadilly Circus has the best food and beautiful view </p>
+<article>
+			<p> The Cicchetti is my favorite restaurant and a delicious Italian. The best plates to order are:
+				<ol>
+					<li> Carbonara </li>
+					<li> Burrata </li>
+					<li> Pizza of any flavor </li>
+					<li> Bruschetta</li>
+					<li> Bolognesa </li>
+				</ol>
+			</p>
+</article>
 
 			<img id= "imggra" src="images/granger2.jpg" alt="Granger & Co">
-			<p> To walk through Notting Hill and have brunch at Granger & Co is the perfect program for a Sunday morning </p>
+			<p> To walk through Notting Hill and have brunch at Granger & Co is the perfect program for a Sunday morning. </p>
 			<img id= "imghak" src="images/hakkasan.jpg" alt="Hakkasan">
 			<p> Hakkasan is the best Chinese restaurant with a lively atmosphere, the ideal choice for a cheered up dinner.</p>
 				<img id= "imgsus" src="images/sushi.jpg" alt="Sushi">
-				<p> Sushi samba is the best sushi at a rooftop with a marvelous view of the city, a great choice for a lunch on a sunny day </p>
+				<p> Sushi samba is the best sushi at a rooftop with a marvelous view of the city, a great choice for a lunch on a sunny day. </p>
 		</section>
 	</section>
 	</div>
@@ -84,7 +94,7 @@
 		<script type="text/javascript">
 
 		var ldnClicked = false;
-		var tipsMouseover = false;
+
 			$(document).ready(function() {
     $("#ldn").click(function() {
 			if (ldnClicked === false) {
@@ -132,7 +142,11 @@ $("#tips").mouseleave(function() {
 	if (true)
 $("#tips").css("font-family", "Shadows Into Light");
 });
-// 
+
+$("#pone").mouseleave ( ( ) => {
+	$("#img1").toggle(1000);
+});
+//
 // $("#img1").click(funtion(){
 // 	$
 // })
