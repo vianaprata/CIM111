@@ -28,37 +28,37 @@
 
 		<section class="garden box">
 		<h2 id="covent">Covent Garden</h2>
-		<p> The beautiful covent Garden is full os street performers and delicious restayurants.  </p>
+		<!-- <p> The beautiful covent Garden is full os street performers and delicious restayurants.  </p> -->
 		<img id= "imgcg" src="images/cg.jpg" alt="Covent">
 		</section>
 
 		<section class="circus box">
 		<h2 id="piccadilly">Piccadilly Circus</h2>
-		<p> Piccadilly Circus is a beautiful place to walk around through stores and watch the big screens. </p>
+		<!-- <p> Piccadilly Circus is a beautiful place to walk around through stores and watch the big screens. </p> -->
 		<img id= "imgpc" src="images/pc.jpg" alt="Piccadilly">
 		</section>
 
 		<section class="park box">
 		<h2 id="hyde">Hyde Park</h2>
-		<p> The peaceful Hyde Park is located right in the middle of the city and is an amazing place to walk around on a sunny day and have a picnic. </p>
+		<!-- <p> The peaceful Hyde Park is located right in the middle of the city and is an amazing place to walk around on a sunny day and have a picnic. </p> -->
 		<img id= "imghp" src="images/hp.jpg" alt="Hyde Park">
 		</section>
 
 		<section class="palaceone box">
 		<h2 id="buckingham">Buckingham Palace</h2>
-		<p> The Buckingham Palace is a the perfect place to walk through the day, as it is surrounded by famous streets. </p>
+		<!-- <p> The Buckingham Palace is a the perfect place to walk through the day, as it is surrounded by famous streets. </p> -->
 		<img id= "imgbp" src="images/bp.jpg" alt="Buckingham">
 		</section>
 
 		<section class="palacetwo box">
 		<h2 id="westminster"> Palace of Westminster</h2>
-		<p> The royal Palace of Westminster is a must go to place as it is a beautiful place to visit and represents a huge part of London's History. </p>
+		<!-- <p> The royal Palace of Westminster is a must go to place as it is a beautiful place to visit and represents a huge part of London's History. </p> -->
 		<img id= "imgpw" src="images/pw.jpg" alt="Westminster">
 		</section>
 
 		<section class="london box">
 		<h2 id="eye">London Eye</h2>
-		<p> To London Eye is across form the Palac e of Westminster and is holds the most beautiful view of the entire city. </p>
+		<!-- <p> To London Eye is across form the Palac e of Westminster and is holds the most beautiful view of the entire city. </p> -->
 		<img id= "imgle" src="images/le.jpg" alt="London Eye">
 		</section>
 
@@ -113,30 +113,11 @@
 // $("#covent").click(function() {
 
 // });
-$("#covent").mouseover(function() {
-	if (true)
-$("#covent").css("color", "purple");
-});
-$("#piccadilly").mouseover(function() {
-	if (true)
-$("#piccadilly").css("color", "purple");
-});
-$("#hyde").mouseover(function() {
-	if (true)
-$("#hyde").css("color", "purple");
-});
-$("#buckingham").mouseover(function() {
-	if (true)
-$("#buckingham").css("color", "purple");
-});
-$("#westminster").mouseover(function() {
-	if (true)
-$("#westminster").css("color", "purple");
-});
-$("#eye").mouseover(function() {
-	if (true)
-$("#eye").css("color", "purple");
-});
+// $("#covent").mouseover(function() {
+// 	if (true)
+// $("#covent").css("color", "purple");
+// });
+
 
 $("#tips").mouseleave(function() {
 	if (true)
@@ -146,10 +127,47 @@ $("#tips").css("font-family", "Shadows Into Light");
 $("#pone").mouseleave ( ( ) => {
 	$("#img1").toggle(1000);
 });
+
+$("#covent").mouseover(function() {
+	if (true)
+$("#covent").html("The beautiful covent Garden is full os street performers and delicious restaurants.");
+});
+
+$("#piccadilly").mouseover(function() {
+	if (true)
+$("#piccadilly").html("Piccadilly Circus is a beautiful place to walk around through stores and watch the big screens.");
+});
+
+$("#hyde").mouseover(function() {
+	if (true)
+$("#hyde").html("The peaceful Hyde Park is located right in the middle of the city and is an amazing place to walk around on a sunny day and have a picnic.");
+});
+
+$("#buckingham").mouseover(function() {
+	if (true)
+$("#buckingham").html("The Buckingham Palace is a the perfect place to walk through the day, as it is surrounded by famous streets.");
+});
+
+$("#westminster").mouseover(function() {
+	if (true)
+$("#westminster").html("The royal Palace of Westminster is a must go to place as it is a beautiful place to visit and represents a huge part of London's History.");
+});
+
+$("#eye").mouseover(function() {
+	if (true)
+$("#eye").html("To London Eye is across form the Palac e of Westminster and is holds the most beautiful view of the entire city.");
+});
 //
-// $("#img1").click(funtion(){
-// 	$
-// })
+// If I wanted to make picture change size with click:
+// $("#imgcg").click(() => {
+// 	if (imgBig === "no") {
+// 		$("#imgcg").css("width", "800px");
+// 		 imgBig = "yes";
+// 	} else {
+// 		$("#imgcg").css("width", "400px");
+// 		 imgBig = "no";
+// 	}
+// });
 
 // $("#coventparagraph").html("<p> This is an amazing place to eat by at various restaurants. </p>");
 
