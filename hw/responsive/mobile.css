@@ -1,151 +1,182 @@
-html {
-  font-size: 20px;
-  line-height:1.7;
-  /* font-family: sans-serif; */
-  background-color: #093368;
+@media only screen and (max-width: 768px){
 
-}
+  html {
+    font-size: 20px;
+    line-height:1.7;
+    /* font-family: sans-serif; */
+    background-color: #18c577;
+    /* background-color: #093368; */
 
-* {
-  margin: 10px;
-  padding: 0;
-}
+  }
 
-
-.grid_container {
-  display: grid;
-  grid-template-areas:
- "title title title"
-  "yellow yellow yellow"
-  /* "yellow yellow ." */
-  "red blue blue"
-  "orange orange orange" ;
-  /* this formats where in the page the boxes will be, how many times we put the name
-  of each box determines the division of the page */
-  /* . creates an empty space */
-  grid-gap: 0rem;
-  grid-row-gap: 0rem;
-  grid-template-columns: 1fr 1fr 1fr;
-  /* grid-template-rows: repeat(4, 0.5fr); */
-
-  /* rems are proportionate units, rem looks for the font size in the html and does
-  all other shapes in proportion to that */
-  /* the rem will be proportionate to the font size */
-}
-/* this already turns into a grid display */
-
-/* .grid-1-container {
-
-} */
-
-/* .box {
-  border: 1px solid: #00000;
-  /* font-family: monospace; } */
+  * {
+    margin: 10px;
+    padding: 0;
+  }
 
 
-.title {
-  grid-area: title;
-  background-color: #18c577 ;
-  min-height: 100px;
-  text-align: center;
-  font-size: 20px;
-  color: #410E38  ;
-  font-family: 'Poppins', monospace;
-}
+  .grid_container {
+    display: grid;
+    grid-template-areas:
+   "title title title"
+    "yellow yellow yellow"
+    /* "yellow yellow ." */
+    "red blue blue"
+    "orange orange orange" ;
+    /* this formats where in the page the boxes will be, how many times we put the name
+    of each box determines the division of the page */
+    /* . creates an empty space */
+    grid-gap: 0rem;
+    grid-row-gap: 0rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: repeat(4, 0.5fr); */
+
+    /* rems are proportionate units, rem looks for the font size in the html and does
+    all other shapes in proportion to that */
+    /* the rem will be proportionate to the font size */
+  }
+  /* this already turns into a grid display */
+
+  /* .grid-1-container {
+
+  } */
+
+  .box {
+    border: 1px;
+    /* solid: #00000; */
+    /* font-family: monospace; */
+  }
+
+  .title {
+    grid-area: title;
+    background-color: #093368 ;
+    /* background-color: #18c577 ; */
+    min-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    color:   #ead543;
+    /* color: #410E38  ; */
+    font-family: 'Poppins', monospace;
+  }
 
 
-h1 {
-  margin-bottom: 5px;
-  font-family: 'Mansalva', monospace;
-  font-size: 50px;
-}
+  .grid_introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-h2 {
-  font-family: 'Mansalva', monospace;
-  font-size: 35px;
-  margin-bottom: 5px;
-}
+  .grid_riodejaneiro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-.yellow {
-  grid-area: yellow;
-  background-color: #15b855;
-  min-height: 400px;
-  text-align:center;
-  /* color: #A81F91   ; */
-  color: #410E38 ;
-  font-family: 'Poppins', monospace;
-  font-size: 20px;
-}
+  .grid_bibliography {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
 
-.red {
-  grid-area: red;
-  background-color:   #82c209  ;
-  min-height: 200px;
-  font-family: 'Poppins', sans-serif;
-  color: #410E38 ;
-  font-size: 20px;
-  width: 350px;
-  text-align: center;
-}
+  h1 {
+    margin-bottom: 5px;
+    font-family: 'Mansalva', monospace;
+    font-size: 50px;
+  }
 
-.blue {
-  grid-area: blue;
-  background-color:  #bddb25 ;
-  min-height: 200px;
-  min-width: 300px ;
-  text-align:center;
-  font-family: 'Poppins', sans-serif;
-  color: #410E38 ;
-  font-size: 20px;
-}
+  h2 {
+    font-family: 'Mansalva', monospace;
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
 
-.orange {
-  grid-area: orange;
-  background-color:  #dbdb25 ;
-  min-height: 200px;
-  text-align:center;
-  font-family: 'Poppins', sans-serif;
-  color: #410E38 ;
-  font-size: 20px;
-}
+  .yellow {
+    grid-area: yellow;
+    /* background-color: #15b855; */
+    background-color:   #286d8d;
+    min-height: 400px;
+    text-align:center;
+    /* color: #A81F91   ; */
+      color:   #ead543;
+    /* color: #410E38 ; */
+    font-family: 'Poppins', monospace;
+    font-size: 20px;
+  }
 
-.purple {
-  grid-area: orange;
-  background-color:  #dbdb25 ;
-  min-height: 50px;
-  text-align:center;
-  font-family: 'Poppins', sans-serif;
-  color: #410E38 ;
-  font-size: 20px;
-}
 
-nav {
-  display: inline-block;
-  font-size: 20px;
-}
+  .red {
+    grid-area: red;
+    background-color:  #107c72 ;
+    min-height: 200px;
+    font-family: 'Poppins', sans-serif;
+    /* color: #410E38 ; */
+      color:  #ead543;
+    font-size: 20px;
+  }
 
-article#paragraphone, #paragraphone {
-  font-size: 20px;
-}
+  .blue {
+    grid-area: blue;
+    background-color:  #107c57;
+    min-height: 200px;
+    min-width: 300px ;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    /* color: #410E38 ; */
+      color:  #ead543;
+    font-size: 20px;
+  }
 
-a {
-  color: #410E38;
-  /* text-decoration: none; */
-  margin-right: 20px;
-}
+  .orange {
+    grid-area: orange;
+    background-color:   #17783d ;
+    min-height: 200px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    /* color: #410E38 ; */
+  color:   #ead543;
+    font-size: 20px;
+  }
 
-a:visited {
-  color: #410E38  ;
-}
+  /* .purple {
+    grid-area: orange;
+    background-color:  #dbdb25 ;
+    min-height: 50px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    /* color: #410E38 ; */
+      /* color:  #ead543;
+    font-size: 20px;
+  } */
 
-footer {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  background-color: #f9f62e ;
-  color: #410E38 ;
-  height: 160px;
-}
+  nav {
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  article#paragraphone, #paragraphone {
+    font-size: 20px;
+  }
+
+  a {
+    /* color: #410E38; */
+    color:  #f3e623;
+    /* text-decoration: none; */
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  a:visited {
+    /* color: #410E38  ; */
+    color:  #f3e623;
+  }
+
+  footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color:  #106023 ;
+    height: 90px;
+    /* color: #410E38 ; */
+      color:  #ead543;
+  }
+  }
 
 @media only screen and  (max-width: 800px) {
     .grid_container {
@@ -162,14 +193,13 @@ footer {
       grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media only screen and  (max-width: 800px) {
+/* @media only screen and  (max-width: 800px) {
     .red {
       grid-area: red;
       background-color:   #82c209  ;
-      /* min-height: 200px; */
-      font-family: 'Poppins', sans-serif;
+      min-height: 200px; */
+      /* font-family: 'Poppins', sans-serif;
       color: #410E38 ;
       font-size: 20px;
-      width: auto;
-    }
-}
+      width: auto; */
+/* } */

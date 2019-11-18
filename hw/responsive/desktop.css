@@ -56,6 +56,22 @@ html {
 }
 
 
+.grid_introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_riodejaneiro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_bibliography {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 h1 {
   margin-bottom: 5px;
   font-family: 'Mansalva', monospace;
@@ -110,7 +126,7 @@ h2 {
   font-size: 20px;
 }
 
-.purple {
+/* .purple {
   grid-area: orange;
   background-color:  #dbdb25 ;
   min-height: 50px;
@@ -118,7 +134,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   color: #410E38 ;
   font-size: 20px;
-}
+} */
 
 nav {
   display: inline-block;
@@ -133,6 +149,7 @@ a {
   color: #410E38;
   /* text-decoration: none; */
   margin-right: 20px;
+  text-decoration: none;
 }
 
 a:visited {
@@ -143,7 +160,7 @@ footer {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   background-color:   #f9f62e  ;
-  height: 160px;
+  height: 90px;
   color: #410E38 ;
 }
 }
@@ -162,14 +179,14 @@ footer {
       grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media only screen and  (max-width: 800px) {
+/* @media only screen and  (max-width: 800px) {
     .red {
       grid-area: red;
       background-color:   #82c209  ;
       /* min-height: 200px; */
-      font-family: 'Poppins', sans-serif;
+      /* font-family: 'Poppins', sans-serif;
       color: #410E38 ;
       font-size: 20px;
       width: auto;
     }
-}
+} */
