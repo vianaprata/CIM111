@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px){
+/* @media only screen and (min-width: 768px){ */
 
 html {
   font-size: 20px;
@@ -163,22 +163,22 @@ footer {
   height: 90px;
   color: #410E38 ;
 }
-}
-@media only screen and  (max-width: 800px) {
+/* } */
+/* @media only screen and  (max-width: 800px) {
     .grid_container {
       display: grid;
       grid-template-areas:
      "title title title"
       "yellow yellow yellow"
       /* "yellow yellow ." */
-      "red red red"
+      /* "red red red"
       "blue blue blue"
       "orange orange orange" ;
       grid-gap: 0rem;
       grid-row-gap: 0rem;
       grid-template-columns: 1fr 1fr 1fr;
   }
-}
+}  */
 /* @media only screen and  (max-width: 800px) {
     .red {
       grid-area: red;
