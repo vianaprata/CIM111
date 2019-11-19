@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 768px) {
 
 html {
   font-size: 20px;
@@ -31,9 +31,6 @@ html {
   grid-template-columns: 1fr 1fr 1fr;
   /* grid-template-rows: repeat(4, 0.5fr); */
 
-  /* rems are proportionate units, rem looks for the font size in the html and does
-  all other shapes in proportion to that */
-  /* the rem will be proportionate to the font size */
 }
 /* this already turns into a grid display */
 
