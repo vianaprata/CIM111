@@ -57,10 +57,10 @@
   }
 
 
-  .grid_introduction {
+  /* .grid_introduction {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
+  } */
 
   .grid_riodejaneiro {
     display: grid;
@@ -172,6 +172,11 @@
     height: 100px;
     /* color: #410E38 ; */
       color:  #ead543;
+  }
+
+  ol {
+    /* text-align: center; */
+    margin-left: 50px;
   }
   }
 
