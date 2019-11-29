@@ -14,20 +14,23 @@
 		<meta charset="utf-8">
 		<title> Viana Barcellos Prata </title>
 		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 
 	</head>
 	<body>
 
-<header>
-	<section>
-	<h1> Viana Barcellos Prata </h1>
+<header class="grid_introduction">
+	<section class="first box">
+	<h1 id="home"> Viana Barcellos Prata </h1>
 	<address>
 		vianaprata@gmail.com | 1320 S Dixie Hwy | Coral Gables | +1 (786) 477 1397
 	</address>
 	<p> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
 	</section>
 
-	<article>
+	<article class="pages box">
 	<nav>
 		<a href="index.html"> Home</a>
 		<a href="education.html"> Education</a>
@@ -37,8 +40,9 @@
 		</nav>
 		</article>
 
-	<section>
-	<h2> My Links for further information </h2>
+	<section class="links box">
+		<img src="images/viana.JPG" alt="My Picture">
+	<h2 id="mylinks"> Links for further information </h2>
 	<a href="https://www.linkedin.com/in/viana-barcellos-prata-125362165/">My Linkedin</a>
 	<a href="https://app.joinhandshake.com/users/15103328">My Handshake</a>
 </section>
@@ -46,3 +50,39 @@
 
 	</body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+var ldnClicked = false;
+
+	$(document).ready(function() {
+$("#home").click(function() {
+	if (homeClicked === false) {
+// ldnClicked is one. We have to make the font small
+$("#home").css("font-size", "80px");
+	 homeClicked = true;
+
+	} else {
+		// ldnClicked is zero. We have to make the font big
+		// if the first part hold, do whatever is inside
+			 $("#home").css("font-size", "500px");
+			 homeClicked = false;
+	}
+
+	$("#mylinks").click(function() {
+		if (true)
+	$("#mylinks").html("hello.").css("font-size", "25px");
+	});
+
+});
+
+// $("#home").click(function() {
+// 	if (true)
+// $("#mylinks").css("font-size", "5px");
+// });
+
+// $("#pone").mouseleave ( ( ) => {
+// 	$("#img1").toggle(1000);
+// });
