@@ -16,6 +16,23 @@ html {
   grid-template-columns: 1fr;
 }
 
+
+
+.grid_ski {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_higher {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .box {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -29,7 +46,7 @@ html {
   /* border-radius: 10%; */
 }
 
-img {
+#photo1 {
   width: 175px;
   height: 225px;
   border-radius: 90%;
@@ -37,12 +54,18 @@ img {
   margin-top: 5px;
 }
 
+#photo2 {
+  width: 200px;
+  height: 175px;
+  margin-left: 2px;
+}
+
 .pages {
   /* background-color: grey; */
   text-align: center;
 }
 
-.links {
+#links {
   text-align: center;
   margin-top: 2px;
 }
@@ -71,15 +94,19 @@ a:visited {
   text-align: center;
 }
 
-.internships {
+#loweredu {
   text-align: center;
 }
 
-.work {
+#intern {
   text-align: center;
 }
 
-.skills {
+#work {
+  text-align: center;
+}
+
+#skills {
   text-align: center;
 }
 

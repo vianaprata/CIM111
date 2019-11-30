@@ -17,16 +17,18 @@
 <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 	</head>
+
 	<body>
 
-		<header class="grid_introduction">
-			<section class="first box">
-	<h1> Viana Barcellos Prata </h1>
-	<address>
+<header class="grid_introduction">
+	<section class="first box">
+	<h1 id="home"> Viana Barcellos Prata </h1>
+	<address id="address">
 		vianaprata@gmail.com | 1320 S Dixie Hwy | Coral Gables | +1 (786) 477 1397
 	</address>
-	<p> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
+	<p id="intro"> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
 	</section>
+
 <article class="pages box">
 		<a href="index.html"> Home</a>
 		<a href="education.html"> Education</a>
@@ -37,19 +39,78 @@
 </article>
 
 
-		<section class="internships box">
+		<section id="intern">
 			 <h2> Internships </h2>
+			 <nav>
+				 <a href="#Pacifico"> Pacifico Asset Management </a>
+				 <a href="#dufry"> Dufry </a>
+				 <a href="#liaisons"> Liaisons Corporation </a>
+			 </nav>
 
-		<h3> Pacifico Asset Management	- Rio de Janeiro, RJ/Brazil </h3>
+		<h3 id="Pacifico"> Pacifico Asset Management	- Rio de Janeiro, RJ/Brazil </h3>
 		<h4> Intern	July 2019 </h4>
 		<p> Rotational program within all areas of the asset management fund, focusing on macroeconomics. Assembled weekly reports on risk-factors for upper management. Compiled macroeconomic research on the impact of political factors for the Global markets and LATAM. Responsible for tracking commodity performance for Coal and northern Brazilian agriculture.  </p>
 
-		<h3> Dufry 	Rio de Janeiro, RJ/Brazil </h3>
+		<h3 id="dufry"> Dufry 	Rio de Janeiro, RJ/Brazil </h3>
 		<h4> Intern	June 2019 </h4>
 		<p> Began on the distribution center and the airport stores. Focused on the financial department; treasury, accounts payables, accounts receivables, accounting and the insurance department. Responsible for data aggregation of paychecks, assessed potential liability on contractual terms of commercial leases and analyzed the company’s financial statements. </p>
 
-		<h3> Liaisons Corporation 	Miami, FL/United States </h3>
+		<h3 id="liaisons"> Liaisons Corporation 	Miami, FL/United States </h3>
 		<h4> Intern	January - April 2019 </h4>
 		<p> Worked on the planning and organization of corporate events. Responsible for customer management and setting up emails to prospective clients. Converted customers were inputted in the CRM tools of tracking. Helped assemble the financial balances for events and created excel spreadsheets for the used vendors. </p>
 
 		</section>
+		<script type="text/javascript">
+		var ldnClicked = false;
+
+		$(document).ready(function() {
+		$("#home").click(function() {
+		if (ldnClicked === false) {
+		// ldnClicked is one. We have to make the font small
+		$("#home").css("font-size", "40px");
+		ldnClicked = true;
+
+		} else {
+		// ldnClicked is zero. We have to make the font big
+		// if the first part hold, do whatever is inside
+			 $("#home").css("font-size", "30px");
+			 ldnClicked = false;
+		}
+
+		$("#links").click(function() {
+		if (true)
+		$("#links").css("background-color", "#deb0cb");
+		});
+
+		});
+
+
+
+		$("#home").mouseleave(function() {
+		if (true)
+		$("#home").css("color", "#81428A");
+		});
+
+		$("#intro").mouseleave(function() {
+		if (true)
+		$("#intro").css("color", "#81428A");
+		});
+
+		$("#address").mouseleave(function() {
+		if (true)
+		$("#address").css("color", "#81428A");
+		});
+
+		$("#mylinks").mouseleave ( ( ) => {
+		$("#photo1").toggle(1000);
+		});
+
+		$("#intern").click(function() {
+		if (true)
+		$("#intern").css("background-color", "#deb0cb");
+		});
+
+		});
+		</script>
+		</body>
+		</html>

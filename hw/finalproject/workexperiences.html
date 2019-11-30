@@ -19,14 +19,15 @@
 	</head>
 	<body>
 
-		<header class="grid_introduction">
-			<section class="first box">
-	<h1> Viana Barcellos Prata </h1>
-	<address>
+<header class="grid_introduction">
+	<section class="first box">
+	<h1 id="home"> Viana Barcellos Prata </h1>
+	<address id="address">
 		vianaprata@gmail.com | 1320 S Dixie Hwy | Coral Gables | +1 (786) 477 1397
 	</address>
-	<p> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
+	<p id="intro"> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
 	</section>
+
 <article class="pages box">
 		<a href="index.html"> Home</a>
 		<a href="education.html"> Education</a>
@@ -36,13 +37,69 @@
 	</nav>
 </article>
 
-	<section class="work box">
+	<main id="work">
 		<h2> Work Experiences </h2>
+		<section class="grid_experience">
+			<article>
 		<h3> Fernando Fernandes Criminal Law Office	Rio de Janeiro, RJ/Brazil
 			July 2017 </h3>
 	<p> Researched cases and aided in analyzing evidence. </p>
-
+</article>
+<article>
 	<h3> Rio De Janeiro Olympics	Rio de Janeiro, RJ/Brazil
 			July 2016 </h3>
 	<p> Volunteered in the preparation of the training ground for the Great Britain’s Olympic delegation. </p>
-	</section>
+</article>
+</section>
+</main>
+
+<script type="text/javascript">
+var ldnClicked = false;
+
+$(document).ready(function() {
+$("#home").click(function() {
+if (ldnClicked === false) {
+// ldnClicked is one. We have to make the font small
+$("#home").css("font-size", "40px");
+ldnClicked = true;
+
+} else {
+// ldnClicked is zero. We have to make the font big
+// if the first part hold, do whatever is inside
+	 $("#home").css("font-size", "30px");
+	 ldnClicked = false;
+}
+
+});
+
+
+
+$("#home").mouseleave(function() {
+if (true)
+$("#home").css("color", "#81428A");
+});
+
+$("#intro").mouseleave(function() {
+if (true)
+$("#intro").css("color", "#81428A");
+});
+
+$("#address").mouseleave(function() {
+if (true)
+$("#address").css("color", "#81428A");
+});
+
+$("#mylinks").mouseleave ( ( ) => {
+$("#photo1").toggle(1000);
+});
+
+$("#work").click(function() {
+if (true)
+$("#work").css("background-color", "#deb0cb");
+});
+
+
+});
+</script>
+</body>
+</html>

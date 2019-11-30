@@ -19,13 +19,13 @@
 	</head>
 	<body>
 
-		<header class="grid_introduction">
-			<section class="first box">
-	<h1> Viana Barcellos Prata </h1>
-	<address>
+<header class="grid_introduction">
+	<section class="first box">
+	<h1 id="home"> Viana Barcellos Prata </h1>
+	<address id="address">
 		vianaprata@gmail.com | 1320 S Dixie Hwy | Coral Gables | +1 (786) 477 1397
 	</address>
-	<p> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
+	<p id="intro"> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
 	</section>
 <article class="pages box">
 		<a href="index.html"> Home</a>
@@ -36,10 +36,67 @@
 	</nav>
 </article>
 
-		<section class="skills box">
+		<main id="skills">
 			<h2> Skills </h2>
+			<article class="grid_ski">
+				<section>
 			<h3> Languages </h3>
 			<p> Fluent in Portuguese and English; Conversational Proficiency in Spanish and French. </p>
+		</section>
+		<section>
 		<h3> Software </h3>
 		 <p> Proficiency in Microsoft Office (Excel, PowerPoint and Word), Programming C++ & C*, Basic HTML, The Bloomberg Terminal. </p>
-		 </section>
+	 </section>
+	 </article>
+ </main>
+
+ <script type="text/javascript">
+var ldnClicked = false;
+
+$(document).ready(function() {
+$("#home").click(function() {
+if (ldnClicked === false) {
+// ldnClicked is one. We have to make the font small
+$("#home").css("font-size", "40px");
+ldnClicked = true;
+
+} else {
+ // ldnClicked is zero. We have to make the font big
+ // if the first part hold, do whatever is inside
+		$("#home").css("font-size", "30px");
+		ldnClicked = false;
+}
+
+});
+
+
+
+$("#home").mouseleave(function() {
+if (true)
+$("#home").css("color", "#81428A");
+});
+
+$("#intro").mouseleave(function() {
+if (true)
+$("#intro").css("color", "#81428A");
+});
+
+$("#address").mouseleave(function() {
+if (true)
+$("#address").css("color", "#81428A");
+});
+
+$("#mylinks").mouseleave ( ( ) => {
+$("#photo1").toggle(1000);
+});
+
+$("#skills").click(function() {
+if (true)
+$("#skills").css("background-color", "#deb0cb");
+});
+
+
+});
+</script>
+</body>
+</html>
