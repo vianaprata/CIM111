@@ -88,6 +88,11 @@ address {
   font-family: 'EB Garamond', serif;
 }
 
+#email {
+  font-size: 16px;
+  font-family: 'EB Garamond', serif;
+}
+
 a:visited {
   color: black;
 }
