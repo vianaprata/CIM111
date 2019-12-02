@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px) {
+
 
 html {
   font-size: 20px;
@@ -159,8 +159,8 @@ footer {
   height: 160px;
   color: #410E38 ;
 }
-}
- @media only screen and  (max-width: 800px) {
+
+ @media only screen and  (max-width: 600px) {
     .grid_container {
       display: grid;
       grid-template-areas:
@@ -174,7 +174,7 @@ footer {
       grid-row-gap: 0rem;
       grid-template-columns: 1fr 1fr 1fr;
   }
-}
+
 /* @media only screen and  (max-width: 800px) {
     .red {
       grid-area: red;
