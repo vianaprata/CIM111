@@ -1,3 +1,5 @@
+@media only screen and (min-width: 1000px) {
+
 html {
   font-size: 20px;
   line-height:1.7;
@@ -128,4 +130,6 @@ h3{
 
 p {
   font-family: 'EB Garamond', serif;
+}
+
 }
