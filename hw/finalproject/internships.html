@@ -20,7 +20,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 	</head>
 
-	<body>
+	<body id="third">
 
 <header class="grid_introduction">
 	<section class="first box">
@@ -44,25 +44,45 @@
 
 
 		<section id="intern">
-			 <h2> Internships </h2>
+			 <h2 > Internships </h2>
 			 <nav>
 				 <a href="#Pacifico"> Pacifico Asset Management </a>
 				 <a href="#dufry"> Dufry </a>
 				 <a href="#liaisons"> Liaisons Corporation </a>
 			 </nav>
+</section>
+
 
 		<h3 id="Pacifico"> Pacifico Asset Management	- Rio de Janeiro, RJ/Brazil </h3>
+		<section class="grid_pacifico">
+			<article>
 		<h4> Intern	July 2019 </h4>
 		<p> Rotational program within all areas of the asset management fund, focusing on macroeconomics. Assembled weekly reports on risk-factors for upper management. Compiled macroeconomic research on the impact of political factors for the Global markets and LATAM. Responsible for tracking commodity performance for Coal and northern Brazilian agriculture.  </p>
-
+	</article>
+	<article>
+		<img id="photopacifico" src="images/pacificoo.png" alt="Picture Pacifico">
+</article>
+</section>
 		<h3 id="dufry"> Dufry 	Rio de Janeiro, RJ/Brazil </h3>
+		<section class="grid_dufry">
+			<article>
 		<h4> Intern	June 2019 </h4>
 		<p> Began on the distribution center and the airport stores. Focused on the financial department; treasury, accounts payables, accounts receivables, accounting and the insurance department. Responsible for data aggregation of paychecks, assessed potential liability on contractual terms of commercial leases and analyzed the company’s financial statements. </p>
+	</article>
+	<article>
+			<img id="photodufry" src="images/dufry.png" alt="Picture Dufry">
+</article>
+</section>
 
 		<h3 id="liaisons"> Liaisons Corporation 	Miami, FL/United States </h3>
+		<section class="grid_liaisons">
+			<article>
 		<h4> Intern	January - April 2019 </h4>
 		<p> Worked on the planning and organization of corporate events. Responsible for customer management and setting up emails to prospective clients. Converted customers were inputted in the CRM tools of tracking. Helped assemble the financial balances for events and created excel spreadsheets for the used vendors. </p>
-
+	</article>
+	<article>
+	<img id="photoliaisons" src="images/liaisons.png" alt="Picture Liaisons Corporation">
+</article>
 		</section>
 		<script type="text/javascript">
 		var ldnClicked = false;
@@ -83,7 +103,7 @@
 
 		$("#links").click(function() {
 		if (true)
-		$("#links").css("background-color", "#deb0cb");
+		$("#links").css("background-color", "#78AABE");
 		});
 
 		});
@@ -91,29 +111,28 @@
 
 
 		$("#home").mouseleave(function() {
- 	 if (true)
- 	 $("#home").css("color", "  #712749");
- 	 });
-
- 	 $("#intro").mouseleave(function() {
- 	 if (true)
- 	 $("#intro").css("color", " #712749");
- 	 });
-
- 	 $("#address").mouseleave(function() {
- 	 if (true)
- 	 $("#address").css("color", " #712749");
- 	 });
-
-	 $("#email").mouseleave(function() {
-	 if (true)
-	 $("#email").css("color", " #712749");
-	 });
-
-
-		$("#intern").click(function() {
 		if (true)
-		$("#intern").css("background-color", "#deb0cb");
+		$("#home").css("color", " #0C395A ");
+		});
+
+		$("#intro").mouseleave(function() {
+		if (true)
+		$("#intro").css("color", "#0C395A  ");
+		});
+
+		$("#address").mouseleave(function() {
+		if (true)
+		$("#address").css("color", "#0C395A ");
+		});
+
+		$("#email").mouseleave(function() {
+		if (true)
+		$("#email").css("color", "#0C395A ");
+		});
+
+		$("#third").click(function() {
+		if (true)
+		$("#intern").css("background-color", "#78AABE");
 		});
 
 		});

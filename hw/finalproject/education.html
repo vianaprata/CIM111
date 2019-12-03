@@ -22,7 +22,7 @@
 	</head>
 	<body>
 
-		<body>
+		<body id="second">
 
 	<header class="grid_introduction">
 		<section class="first box">
@@ -42,9 +42,9 @@
 		<a href="skills.html"> Skills</a>
 	</nav>
 </article>
-<section id='higheredu'>
+<section>
 		<main class="education box">
-				<h2 > Higher Education </h2>
+				<h2  id='higheredu'> Higher Education </h2>
 				<section class="grid_higher">
 					<article class="umiami box">
 		<h3> University of Miami - Miami, FL/United States </h3>
@@ -53,24 +53,33 @@
 		GPA: 3.35 / 4.0	Transferred in Fall 2018 </p>
 	</article>
 	<article>
-		<img id="photo2" src="images/umiami.jpg" alt="My Picture">
+		<img id="photo2" src="images/umiami.jpg" alt="Picture UMiami">
 </article>
-</section>
 <article class="ibmec box">
 		<h3> IBMEC University -	Rio de Janeiro, RJ/Brazil </h3>
 		 <p> Major in Law	Spring 2017 – Spring 2018 </p>
 	 </article>
+	 <article>
+		 <img id="photoibmec" src="images/ibmec.jpg" alt="Picture IBMEC">
+	 </article>
+</section>
 </section>
 
-<section id="loweredu">
 
-		 <h2> Lower Education </h2>
+<section>
+		 <h2 id="loweredu"> Lower Education </h2>
+		 <section class="grid_lower">
+			 <article>
 		 <h3> British School of Rio de Janeiro - Rio de Janeiro, RJ/Brazil </h3>
 		 <p> International Baccalaureate: 36
 			 <br>
 			 Graduated in December 2016 </p>
-
+		 </article>
+		 <article>
+			 <img id="photobritish" src="images/british.jpeg" alt="Picture British School">
+</article>
 		 </section>
+	 </section>
 	 </main>
 
 	 <script type="text/javascript">
@@ -96,29 +105,29 @@
 
 	 $("#home").mouseleave(function() {
 	 if (true)
-	 $("#home").css("color", "  #712749");
+	 $("#home").css("color", " #0C395A ");
 	 });
 
 	 $("#intro").mouseleave(function() {
 	 if (true)
-	 $("#intro").css("color", " #712749");
+	 $("#intro").css("color", "#0C395A  ");
 	 });
 
 	 $("#address").mouseleave(function() {
 	 if (true)
-	 $("#address").css("color", " #712749");
+	 $("#address").css("color", "#0C395A ");
 	 });
 
 	 $("#email").mouseleave(function() {
 	 if (true)
-	 $("#email").css("color", " #712749");
+	 $("#email").css("color", "#0C395A ");
 	 });
 
 
-	 $("#higheredu").click(function() {
+	 $("#second").click(function() {
 	 if (true)
-	 $("#loweredu").css("background-color", "#deb0cb")
-	 $("#higheredu").css("background-color", "#deb0cb");;
+	 $("#loweredu").css("background-color", "#78AABE ")
+	 $("#higheredu").css("background-color", "#78AABE");;
 	 });
 
 

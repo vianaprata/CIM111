@@ -1,9 +1,10 @@
 
 html {
   font-size: 20px;
-  line-height:1.7;
+  line-height:2;
   /* font-family: sans-serif; */
-  background-color: #fbdaed  ;
+  background-color: #A5BDC7  ;
+
 }
 
 * {
@@ -31,6 +32,11 @@ html {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid_lower {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .box {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -38,7 +44,7 @@ html {
 
 
 .first {
-  background-color: #deb0cb ;
+  background-color: #78AABE  ;
   text-align: center;
   margin-top: 60px;
   /* border-radius: 10%; */
@@ -49,12 +55,43 @@ html {
   height: 225px;
   border-radius: 90%;
   margin-bottom: 0px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
+  margin: auto;
 }
 
 #photo2 {
-  width: 200px;
+  width: 225px;
   height: 175px;
+  margin-left: 2px;
+}
+
+#photoibmec {
+  width: 225px;
+  height: 175px;
+  margin-left: 2px;
+}
+
+#photobritish {
+  width: 225px;
+  height: 175px;
+  margin-left: 2px;
+}
+
+#photodufry {
+  width: 180px;
+  height: 180px;
+  margin-left: 2px;
+}
+
+#photoliaisons {
+  width: 180px;
+  height: 180px;
+  margin-left: 2px;
+}
+
+#photopacifico {
+  width: 180px;
+  height: 180px;
   margin-left: 2px;
 }
 
@@ -93,9 +130,9 @@ a:visited {
   color: black;
 }
 
-.education {
+#higheredu {
   text-align: center;
-}
+ }
 
 #loweredu {
   text-align: center;
@@ -104,6 +141,34 @@ a:visited {
 #intern {
   text-align: center;
 }
+
+#Pacifico {
+  text-align: center;
+}
+
+#dufry {
+  text-align: center;
+}
+
+#liaisons {
+  text-align: center;
+}
+
+.grid_pacifico {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_dufry {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_liaisons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 #work {
   text-align: center;
