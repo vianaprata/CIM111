@@ -1,139 +1,204 @@
 @media only screen and (max-width: 770px){
 
-html {
-  font-size: 20px;
-  line-height:1.7;
-  /* font-family: sans-serif; */
-  background-color:  #cd83a6;
+  html {
+    font-size: 20px;
+    line-height:2;
+    /* font-family: sans-serif; */
+    background-color: #C4C8CD  ;
 
-}
+  }
 
-* {
-  margin: 10px;
-  padding: 0;
-}
+  * {
+    margin: 10px;
+    padding: 0;
+  }
 
-.grid_introduction {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+  .grid_introduction {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_ski {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_experience {
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+
+  .grid_higher {
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+
+  .grid_lower {
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+
+  .box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
+  .first {
+    background-color: #78AABE  ;
+    text-align: center;
+    margin-top: 60px;
+    /* border-radius: 10%; */
+  }
+
+  #photo1 {
+    width: 155px;
+    height: 175px;
+    border-radius: 90%;
+    margin-bottom: 0px;
+    /* margin-top: 5px; */
+    margin: auto;
+  }
+
+  #photo2 {
+    width: 175px;
+    height: 155px;
+    margin-left: 2px;
+  }
+
+  #photoibmec {
+    width: 175px;
+    height: 155px;
+    margin-left: 2px;
+  }
+
+  #photobritish {
+    width: 175px;
+    height: 155px;
+    margin-left: 2px;
+  }
+
+  #photopacifico {
+    width: 160px;
+    height: 160px;
+    margin-left: 2px;
+  }
+
+  #photodufry {
+    width: 160px;
+    height: 160px;
+    margin-left: 2px;
+  }
+
+  #photoliaisons {
+    width: 160px;
+    height: 160px;
+    margin-left: 2px;
+  }
 
 
 
-.grid_ski {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+  .pages {
+    /* background-color: grey; */
+    text-align: center;
+  }
 
-.grid_experience {
-  display: grid;
-  grid-template-columns: 1fr ;
-}
+  #links {
+    text-align: center;
+    margin-top: 2px;
+  }
 
-.grid_higher {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+  #mylinks {
+    font-size: 20px;
+  }
 
-.box {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+  a {
+    font-size: 18px;
+    /* text-decoration: none; */
+    color: black;
+    font-family: 'EB Garamond', serif;
+  }
+
+  address {
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+  }
+
+  #email {
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  #higheredu {
+    text-align: center;
+   }
+
+  #loweredu {
+    text-align: center;
+  }
+
+  #intern {
+    text-align: center;
+  }
+
+  #Pacifico {
+    text-align: center;
+  }
+
+  #dufry {
+    text-align: center;
+  }
+
+  #liaisons {
+    text-align: center;
+  }
+
+  .grid_pacifico {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_dufry {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_liaisons {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
 
-.first {
-  background-color: #deb0cb;
-  text-align: center;
-  margin-top: 60px;
-  /* border-radius: 10%; */
-}
+  #work {
+    text-align: center;
+  }
 
-#photo1 {
-  width: 175px;
-  height: 225px;
-  border-radius: 90%;
-  margin-bottom: 0px;
-  margin-top: 5px;
-}
+  #skills {
+    text-align: center;
+  }
 
-#photo2 {
-  width: 200px;
-  height: 175px;
-  margin-left: 2px;
-}
+  .skills {
+    text-align: center;
+  }
 
-.pages {
-  /* background-color: grey; */
-  text-align: center;
-}
+  h1 {
+    font-family: 'Libre Baskerville', serif;
+  }
 
-#links {
-  text-align: center;
-  margin-top: 2px;
-}
+  h2 {
+    font-family: 'Libre Baskerville', serif;
+  }
 
-#mylinks {
-  font-size: 20px;
-}
+  h3{
+    font-family: 'Playfair Display', serif;
+  }
 
-a {
-  font-size: 18px;
-  /* text-decoration: none; */
-  color: black;
-  font-family: 'EB Garamond', serif;
-}
+  p {
+    font-family: 'EB Garamond', serif;
+  }
 
-address {
-  font-size: 16px;
-  font-family: 'EB Garamond', serif;
-}
-
-#email {
-  font-size: 16px;
-  font-family: 'EB Garamond', serif;
-}
-
-a:visited {
-  color: black;
-}
-
-.education {
-  text-align: center;
-}
-
-#loweredu {
-  text-align: center;
-}
-
-#intern {
-  text-align: center;
-}
-
-#work {
-  text-align: center;
-}
-
-#skills {
-  text-align: center;
-}
-
-.skills {
-  text-align: center;
-}
-
-h1 {
-  font-family: 'Libre Baskerville', serif;
-}
-
-h2 {
-  font-family: 'Libre Baskerville', serif;
-}
-
-h3{
-  font-family: 'Playfair Display', serif;
-}
-
-p {
-  font-family: 'EB Garamond', serif;
-}
 }
