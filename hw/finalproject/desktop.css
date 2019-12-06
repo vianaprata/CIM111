@@ -1,16 +1,19 @@
-
 html {
   font-size: 20px;
-  line-height:2;
+  line-height: 2;
   /* font-family: sans-serif; */
-  background-color: #A5BDC7  ;
-
+  background-color: #a5bdc7;
 }
 
 * {
   margin: 10px;
   padding: 0;
 }
+
+/* main {
+  width: 100%;
+  margin: 0 auto;
+} */
 
 .grid_introduction {
   display: grid;
@@ -42,11 +45,12 @@ html {
   margin-bottom: 0px;
 }
 
-
 .first {
-  background-color: #78AABE  ;
+  background-color: #78aabe;
   text-align: center;
   margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   /* border-radius: 10%; */
 }
 
@@ -60,20 +64,17 @@ html {
 }
 
 #photo2 {
-  width: 225px;
-  height: 175px;
+  width: 100%;
   margin-left: 2px;
 }
 
 #photoibmec {
-  width: 225px;
-  height: 175px;
+  width: 100%;
   margin-left: 2px;
 }
 
 #photobritish {
-  width: 225px;
-  height: 175px;
+  width: 100%;
   margin-left: 2px;
 }
 
@@ -90,8 +91,7 @@ html {
 }
 
 #photopacifico {
-  width: 180px;
-  height: 180px;
+  width: 100%;
   margin-left: 2px;
 }
 
@@ -113,17 +113,17 @@ a {
   font-size: 18px;
   /* text-decoration: none; */
   color: black;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 address {
   font-size: 16px;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 #email {
   font-size: 16px;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 a:visited {
@@ -132,7 +132,7 @@ a:visited {
 
 #higheredu {
   text-align: center;
- }
+}
 
 #loweredu {
   text-align: center;
@@ -169,7 +169,6 @@ a:visited {
   grid-template-columns: 1fr 1fr;
 }
 
-
 #work {
   text-align: center;
 }
@@ -183,17 +182,22 @@ a:visited {
 }
 
 h1 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 h2 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
-h3{
-  font-family: 'Playfair Display', serif;
+h3 {
+  font-family: "Playfair Display", serif;
 }
 
 p {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
+}
+
+.main-info {
+  width: 80%;
+  margin: 0 auto;
 }
