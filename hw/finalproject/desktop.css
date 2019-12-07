@@ -20,6 +20,10 @@ html {
   grid-template-columns: 1fr;
 }
 
+#intro {
+  font-size: 18px;
+}
+
 .grid_ski {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -79,14 +83,12 @@ html {
 }
 
 #photodufry {
-  width: 180px;
-  height: 180px;
+  width: 100%;
   margin-left: 2px;
 }
 
 #photoliaisons {
-  width: 180px;
-  height: 180px;
+  width: 100%;
   margin-left: 2px;
 }
 

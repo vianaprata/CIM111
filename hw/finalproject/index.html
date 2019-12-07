@@ -58,11 +58,10 @@
 		<img id="photo1" src="images/viana.JPG" alt="My Picture">
 		<section id="links">
 			<h2 id="mylinks"> Links for further information </h2>
-			<a href="https://www.linkedin.com/in/viana-barcellos-prata-125362165/">My Linkedin</a>
-			<a href="https://app.joinhandshake.com/users/15103328">My Handshake</a>
-
+			<a id="links" href="https://www.linkedin.com/in/viana-barcellos-prata-125362165/">My Linkedin</a>
+			<a id="links" href="https://app.joinhandshake.com/users/15103328">My Handshake</a>
 			<br>
-			<a href="images/vianaprata.pdf" target="_blank"> Resume</a>
+			<a id="links" href="images/vianaprata.pdf" target="_blank"> Resume</a>
 		</section>
 	</main>
 
@@ -89,25 +88,83 @@
 
 
 
-			$("#home").mouseleave(function() {
+
+			// $(document).ready(function() {
+			// 	$("#intro").mouseover(function(){
+			//
+			// 	})
+			// })
+
+
+
+			// $("#home").mouseleave(function() {
+			// 	if (true)
+			// 		$("#home").css("color", " #0C395A ");
+			// });
+
+			$("#intro").mouseover(function() {
 				if (true)
-					$("#home").css("color", " #0C395A ");
+					$("#intro").css("font-size", "20px ");
 			});
 
 			$("#intro").mouseleave(function() {
 				if (true)
-					$("#intro").css("color", "#0C395A  ");
+					$("#intro").css("font-size", "18px ");
+			});
+
+
+			$("#address").mouseover(function() {
+				if (true)
+					$("#address").css("font-size", "20px ");
 			});
 
 			$("#address").mouseleave(function() {
 				if (true)
-					$("#address").css("color", "#0C395A ");
+					$("#address").css("font-size", "18px ");
+			});
+
+			$("#email").mouseover(function() {
+				if (true)
+					$("#email").css("font-size", "20px ");
 			});
 
 			$("#email").mouseleave(function() {
 				if (true)
-					$("#email").css("color", "#0C395A ");
+					$("#email").css("font-size", "18px ");
 			});
+
+			$("#mylinks").mouseover(function() {
+				if (true)
+					$("#mylinks").css("font-size", "25px ");
+			});
+
+			$("#mylinks").mouseleave(function() {
+				if (true)
+					$("#mylinks").css("font-size", "18px ");
+			});
+
+			$("#links").mouseover(function() {
+				if (true)
+					$("#links").css("font-size", "25px ");
+			});
+
+			$("#links").mouseleave(function() {
+				if (true)
+					$("#links").css("font-size", "18px ");
+			});
+
+
+
+			//
+			// $("#address").mouseleave(function() {
+			// 	if (true)
+			// 		$("#address").css("color", "#0C395A ");
+			// });
+			//
+			// $("#email").mouseleave(function() {
+			// 	if (true)
+			// 		$("#email").css("color", "#0C395A ");
+			// });
 
 			// $("#mylinks").mouseleave ( ( ) => {
 			// $("#photo1").hide(1000);
