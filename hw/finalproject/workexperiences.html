@@ -16,112 +16,196 @@
 	</script>
 	<!-- add this to EVERY PAGE -->
 	<meta charset="utf-8">
-	<title> Viana Barcellos Prata's Work Experiences </title>
+	<meta name="viewport" content="width=device-width">
+	<title> Viana Barcellos Prata </title>
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Courgette|Dancing+Script|Sacramento&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Old+Standard+TT|Yatra+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="desktop.css">
 	<link rel="stylesheet" href="mobile.css">
-	<meta name="viewport" content="width=device-width">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 </head>
 
 <body id="fourth">
 
-	<header class="grid_introduction">
-		<section class="first box">
-			<h1 id="home"> Viana Barcellos Prata </h1>
-			<address id="address">
-				<a id="email" href="mailto:vianabprata@gmail.com">Send Email to vianabprata@gmail.com</a>
-				| 1320 S Dixie Hwy | Coral Gables | +1 (786) 477 1397
-			</address>
-			<p id="intro"> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
-		</section>
+	<main>
+		<header class="grid_introduction">
+			<section class="first box">
+				<h1 id="home"> Viana Barcellos Prata </h1>
+				<address id="address">
+					<a id="email" href="mailto:vianabprata@gmail.com">Send Email to vianabprata@gmail.com</a>
+					| 1320 S Dixie Hwy | Coral Gables | +1 (786) 477 1397
+				</address>
+				<p id="intro"> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
+			</section>
 
-		<article class="pages box">
-			<nav>
-				<a href="index.html"> Home</a>
-				<a href="education.html"> Education</a>
-				<a href="internships.html"> Internships</a>
-				<a href="workexperiences.html"> Work Experiences</a>
-				<a href="skills.html"> Skills</a>
-			</nav>
-		</article>
+			<article class="pages box">
+				<nav>
+					<a href="index.html"> Home</a>
+					<a href="education.html"> Education</a>
+					<a href="internships.html"> Internships</a>
+					<a href="workexperiences.html"> Work Experiences</a>
+					<a href="skills.html"> Skills</a>
+				</nav>
+			</article>
+		</header>
 
-		<main>
+		<section class="main-info">
 			<h2 id="work"> Work Experiences </h2>
 			<section class="grid_experience">
 				<article>
-					<h3> Fernando Fernandes Criminal Law Office Rio de Janeiro, RJ/Brazil
-						July 2017 </h3>
-					<p> Researched cases and aided in analyzing evidence. </p>
+					<h3> Fernando Fernandes Criminal Law Office. </h3>
+					<h4 id="pedu"> Rio de Janeiro, RJ/Brazil - July 2017. </h4>
+					<p id="pedu1"> Researched cases and aided in analyzing evidence. </p>
 				</article>
 				<article>
-					<h3> Rio De Janeiro Olympics Rio de Janeiro, RJ/Brazil
-						July 2016 </h3>
-					<p> Volunteered in the preparation of the training ground for the Great Britain’s Olympic delegation. </p>
+					<h3> Rio De Janeiro Olympics. </h3>
+					<h4 id="pedu2"> Rio de Janeiro, RJ/Brazil - July 2016. </h4>
+					<p id="pedu3"> Volunteered in the preparation of the training ground for the Great Britain’s Olympic delegation. </p>
+				</article>
+				<article>
+					<h3> Beneficiary Party. </h3>
+					<h4 id="pedu4"> Arçatuba, SP/Brazil - December 2015. </h4>
+					<p id="pedu5"> Organized a Christams party to distribute presents for kids in an impoverished area in rural Brazil. </p>
 				</article>
 			</section>
-		</main>
+		</section>
+	</main>
 
-		<script type="text/javascript">
-			var ldnClicked = false;
+	<script type="text/javascript">
+		var ldnClicked = false;
 
-			$(document).ready(function() {
-				$("#home").click(function() {
-					if (ldnClicked === false) {
-						// ldnClicked is one. We have to make the font small
-						$("#home").css("font-size", "40px");
-						ldnClicked = true;
+		$(document).ready(function() {
+			$("#home").click(function() {
+				if (ldnClicked === false) {
+					// ldnClicked is one. We have to make the font small
+					$("#home").css("font-size", "45px");
+					ldnClicked = true;
 
-					} else {
-						// ldnClicked is zero. We have to make the font big
-						// if the first part hold, do whatever is inside
-						$("#home").css("font-size", "30px");
-						ldnClicked = false;
-					}
-
-				});
-
-
-
-				$("#intro").mouseover(function() {
-					if (true)
-						$("#intro").css("font-size", "20px ");
-				});
-
-				$("#intro").mouseleave(function() {
-					if (true)
-						$("#intro").css("font-size", "18px ");
-				});
-
-
-				$("#address").mouseover(function() {
-					if (true)
-						$("#address").css("font-size", "20px ");
-				});
-
-				$("#address").mouseleave(function() {
-					if (true)
-						$("#address").css("font-size", "18px ");
-				});
-
-				$("#email").mouseover(function() {
-					if (true)
-						$("#email").css("font-size", "20px ");
-				});
-
-				$("#email").mouseleave(function() {
-					if (true)
-						$("#email").css("font-size", "18px ");
-				});
-
-				$("#fourth").click(function() {
-					if (true)
-						$("#work").css("background-color", "#78AABE");
-				});
-
+				} else {
+					// ldnClicked is zero. We have to make the font big
+					// if the first part hold, do whatever is inside
+					$("#home").css("font-size", "40px");
+					ldnClicked = false;
+				}
 
 			});
-		</script>
+
+
+
+
+			// $(document).ready(function() {
+			// $("#intro").mouseover(function(){
+			//
+			// })
+			// })
+
+
+
+			// $("#home").mouseleave(function() {
+			// if (true)
+			// $("#home").css("color", " #0C395A ");
+			// });
+
+			$("#intro").mouseover(function() {
+				if (true)
+					$("#intro").css("font-size", "22px ");
+			});
+
+			$("#intro").mouseleave(function() {
+				if (true)
+					$("#intro").css("font-size", "18px ");
+			});
+
+
+			$("#address").mouseover(function() {
+				if (true)
+					$("#address").css("font-size", "20px ");
+			});
+
+			$("#address").mouseleave(function() {
+				if (true)
+					$("#address").css("font-size", "16px ");
+			});
+
+			$("#email").mouseover(function() {
+				if (true)
+					$("#email").css("font-size", "20px ");
+			});
+
+			$("#email").mouseleave(function() {
+				if (true)
+					$("#email").css("font-size", "16px ");
+			});
+
+			$("#pedu").mouseover(function() {
+				if (true)
+					$("#pedu").css("font-size", "22px ");
+			});
+
+			$("#pedu").mouseleave(function() {
+				if (true)
+					$("#pedu").css("font-size", "18px");
+			});
+
+			$("#pedu1").mouseover(function() {
+				if (true)
+					$("#pedu1").css("font-size", "20px ");
+			});
+
+			$("#pedu1").mouseleave(function() {
+				if (true)
+					$("#pedu1").css("font-size", "16px");
+			});
+
+			$("#pedu2").mouseover(function() {
+				if (true)
+					$("#pedu2").css("font-size", "22px ");
+			});
+
+			$("#pedu2").mouseleave(function() {
+				if (true)
+					$("#pedu2").css("font-size", "18px");
+			});
+
+			$("#pedu3").mouseover(function() {
+				if (true)
+					$("#pedu3").css("font-size", "20px ");
+			});
+
+			$("#pedu3").mouseleave(function() {
+				if (true)
+					$("#pedu3").css("font-size", "16px");
+			});
+
+			$("#pedu4").mouseover(function() {
+				if (true)
+					$("#pedu4").css("font-size", "22px ");
+			});
+
+			$("#pedu4").mouseleave(function() {
+				if (true)
+					$("#pedu4").css("font-size", "18px");
+			});
+
+			$("#pedu5").mouseover(function() {
+				if (true)
+					$("#pedu5").css("font-size", "20px ");
+			});
+
+			$("#pedu5").mouseleave(function() {
+				if (true)
+					$("#pedu5").css("font-size", "16px");
+			});
+
+			$("#fourth").click(function() {
+				if (true)
+					$("#work").css("background-color", "#78AABE");
+			});
+
+
+		});
+	</script>
 </body>
 
 </html>

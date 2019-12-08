@@ -3,7 +3,7 @@
     font-size: 20px;
     line-height: 2;
     /* font-family: sans-serif; */
-    background-color: #c4c8cd;
+    background-color: #a5bdc7;
   }
 
   .grid_introduction {
@@ -31,20 +31,33 @@
     grid-template-columns: 1fr;
   }
 
-  .box {
+  .grid_pacifico {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_dufry {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_liaisons {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .main-info {
+    width: 100%;
+  }
+
+  /* .box {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  .first {
-    background-color: #78aabe;
-    text-align: center;
-    margin-top: 60px;
-    /* border-radius: 10%; */
-  }
 
   .pages {
-    /* background-color: grey; */
+
     text-align: center;
   }
 
@@ -59,7 +72,7 @@
 
   a {
     font-size: 18px;
-    /* text-decoration: none; */
+
     color: black;
     font-family: "EB Garamond", serif;
   }
@@ -102,20 +115,6 @@
     text-align: center;
   }
 
-  .grid_pacifico {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .grid_dufry {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .grid_liaisons {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
 
   #work {
     text-align: center;
@@ -129,7 +128,5 @@
     text-align: center;
   }
 
-  .main-info {
-    width: 100%;
-  }
+   */
 }

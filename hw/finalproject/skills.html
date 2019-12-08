@@ -16,116 +16,196 @@
 	</script>
 	<!-- add this to EVERY PAGE -->
 	<meta charset="utf-8">
-	<title> Viana Barcellos Prata's Skills </title>
+	<meta name="viewport" content="width=device-width">
+	<title> Viana Barcellos Prata </title>
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Courgette|Dancing+Script|Sacramento&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Old+Standard+TT|Yatra+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="desktop.css">
 	<link rel="stylesheet" href="mobile.css">
-	<meta name="viewport" content="width=device-width">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 </head>
 
 <body id="fifth">
 
-	<header class="grid_introduction">
-		<section class="first box">
-			<h1 id="home"> Viana Barcellos Prata </h1>
-			<address id="address">
-				<a id="email" href="mailto:vianabprata@gmail.com">Send Email to vianabprata@gmail.com</a>
-				| 1320 S Dixie Hwy | Coral Gables | +1 (786) 477 1397
-			</address>
-			<p id="intro"> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
-		</section>
-		<article class="pages box">
-			<nav>
-				<a href="index.html"> Home</a>
-				<a href="education.html"> Education</a>
-				<a href="internships.html"> Internships</a>
-				<a href="workexperiences.html"> Work Experiences</a>
-				<a href="skills.html"> Skills</a>
-			</nav>
-		</article>
+	<main>
+		<header class="grid_introduction">
+			<section class="first box">
+				<h1 id="home"> Viana Barcellos Prata </h1>
+				<address id="address">
+					<a id="email" href="mailto:vianabprata@gmail.com">Send Email to vianabprata@gmail.com</a>
+					| 1320 S Dixie Hwy | Coral Gables | +1 (786) 477 1397
+				</address>
+				<p id="intro"> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
+			</section>
+			<article class="pages box">
+				<nav>
+					<a href="index.html"> Home</a>
+					<a href="education.html"> Education</a>
+					<a href="internships.html"> Internships</a>
+					<a href="workexperiences.html"> Work Experiences</a>
+					<a href="skills.html"> Skills</a>
+				</nav>
+			</article>
+		</header>
 
-		<main>
+		<section class="main-info">
 			<h2 id="skills"> Skills </h2>
 			<article class="grid_ski">
 				<section>
 					<h3> Languages </h3>
-					<p> Fluent in Portuguese and English; Conversational Proficiency in Spanish and French. </p>
+					<ul id="pedu">
+						<li> Fluent in Portuguese </li>
+						<li> Fluent in English </li>
+						<li> Conversational Proficiency in Spanish </li>
+						<li> Conversational Proficiency in French. </li>
+					</ul>
 				</section>
 				<section>
 					<h3> Software </h3>
-					<p> Proficiency in Microsoft Office (Excel, PowerPoint and Word), Programming C++ & C*, Basic HTML, The Bloomberg Terminal. </p>
+					<ul id="pedu1">
+						<li> Proficiency in Microsoft Office (Excel, PowerPoint and Word). </li>
+						<li> Programming C++ & C*. </li>
+						<li> Basic HTML. </li>
+						<li> The Bloomberg Terminal.</li>
+					</ul>
 				</section>
 				<section>
 					<h3> Sports </h3>
-					<p> Running, Tennis, Yoga, swimming. </p>
+					<ul id="pedu2">
+						<li> Running. </li>
+						<li> Tennis. </li>
+						<li> Yoga. </li>
+						<li> Swimming. </li>
+					</ul>
 				</section>
 				<section>
 					<h3> Others </h3>
-					<p> Event management, marketing, sales. </p>
+					<ul id="pedu3">
+						<li> Event management. </li>
+						<li> Marketing. </li>
+						<li> Sales.</li>
+					</ul>
 				</section>
-			</article>
-		</main>
+		</section>
+		</article>
+	</main>
 
-		<script type="text/javascript">
-			var ldnClicked = false;
+	<script type="text/javascript">
+		var ldnClicked = false;
 
-			$(document).ready(function() {
-				$("#home").click(function() {
-					if (ldnClicked === false) {
-						// ldnClicked is one. We have to make the font small
-						$("#home").css("font-size", "40px");
-						ldnClicked = true;
+		$(document).ready(function() {
+			$("#home").click(function() {
+				if (ldnClicked === false) {
+					// ldnClicked is one. We have to make the font small
+					$("#home").css("font-size", "45px");
+					ldnClicked = true;
 
-					} else {
-						// ldnClicked is zero. We have to make the font big
-						// if the first part hold, do whatever is inside
-						$("#home").css("font-size", "30px");
-						ldnClicked = false;
-					}
-
-				});
-
-
-
-				$("#intro").mouseover(function() {
-					if (true)
-						$("#intro").css("font-size", "20px ");
-				});
-
-				$("#intro").mouseleave(function() {
-					if (true)
-						$("#intro").css("font-size", "18px ");
-				});
-
-
-				$("#address").mouseover(function() {
-					if (true)
-						$("#address").css("font-size", "20px ");
-				});
-
-				$("#address").mouseleave(function() {
-					if (true)
-						$("#address").css("font-size", "18px ");
-				});
-
-				$("#email").mouseover(function() {
-					if (true)
-						$("#email").css("font-size", "20px ");
-				});
-
-				$("#email").mouseleave(function() {
-					if (true)
-						$("#email").css("font-size", "18px ");
-				});
-				$("#fifth").click(function() {
-					if (true)
-						$("#skills").css("background-color", " #78AABE");
-				});
-
+				} else {
+					// ldnClicked is zero. We have to make the font big
+					// if the first part hold, do whatever is inside
+					$("#home").css("font-size", "40px");
+					ldnClicked = false;
+				}
 
 			});
-		</script>
+
+
+
+
+			// $(document).ready(function() {
+			// $("#intro").mouseover(function(){
+			//
+			// })
+			// })
+
+
+
+			// $("#home").mouseleave(function() {
+			// if (true)
+			// $("#home").css("color", " #0C395A ");
+			// });
+
+			$("#intro").mouseover(function() {
+				if (true)
+					$("#intro").css("font-size", "22px ");
+			});
+
+			$("#intro").mouseleave(function() {
+				if (true)
+					$("#intro").css("font-size", "18px ");
+			});
+
+
+			$("#address").mouseover(function() {
+				if (true)
+					$("#address").css("font-size", "20px ");
+			});
+
+			$("#address").mouseleave(function() {
+				if (true)
+					$("#address").css("font-size", "16px ");
+			});
+
+			$("#email").mouseover(function() {
+				if (true)
+					$("#email").css("font-size", "20px ");
+			});
+
+			$("#email").mouseleave(function() {
+				if (true)
+					$("#email").css("font-size", "16px ");
+			});
+
+			$("#pedu").mouseover(function() {
+				if (true)
+					$("#pedu").css("font-size", "20px ");
+			});
+
+			$("#pedu").mouseleave(function() {
+				if (true)
+					$("#pedu").css("font-size", "16px");
+			});
+
+			$("#pedu1").mouseover(function() {
+				if (true)
+					$("#pedu1").css("font-size", "20px ");
+			});
+
+			$("#pedu1").mouseleave(function() {
+				if (true)
+					$("#pedu1").css("font-size", "16px");
+			});
+
+			$("#pedu2").mouseover(function() {
+				if (true)
+					$("#pedu2").css("font-size", "20px ");
+			});
+
+			$("#pedu2").mouseleave(function() {
+				if (true)
+					$("#pedu2").css("font-size", "16px");
+			});
+
+			$("#pedu3").mouseover(function() {
+				if (true)
+					$("#pedu3").css("font-size", "20px");
+			});
+
+			$("#pedu3").mouseleave(function() {
+				if (true)
+					$("#pedu3").css("font-size", "16px");
+			});
+
+
+			$("#fifth").click(function() {
+				if (true)
+					$("#skills").css("background-color", " #78AABE");
+			});
+
+
+		});
+	</script>
 </body>
 
 </html>

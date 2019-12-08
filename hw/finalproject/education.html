@@ -16,12 +16,13 @@
 	</script>
 	<!-- add this to EVERY PAGE -->
 	<meta charset="utf-8">
-	<title> Viana Barcellos Prata's Education </title>
+	<meta name="viewport" content="width=device-width">
+	<title> Viana Barcellos Prata </title>
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Courgette|Dancing+Script|Sacramento&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Old+Standard+TT|Yatra+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="desktop.css">
 	<link rel="stylesheet" href="mobile.css">
-	<meta name="viewport" content="width=device-width">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
-
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 </head>
 
@@ -29,7 +30,7 @@
 
 	<body id="second">
 
-		<main class="grid_introduction">
+		<main>
 			<header>
 				<section class="first box">
 					<h1 id="home"> Viana Barcellos Prata </h1>
@@ -39,6 +40,7 @@
 					</address>
 					<p id="intro"> Motivated Student from the University of Miami, who is eager to learn from new opportunities. </p>
 				</section>
+
 				<section class="pages box">
 					<nav>
 						<a href="index.html"> Home</a>
@@ -49,6 +51,7 @@
 					</nav>
 				</section>
 			</header>
+
 			<section class="main-info">
 				<section class="education box">
 					<h2 id='higheredu'> Higher Education </h2>
@@ -100,13 +103,13 @@
 				$("#home").click(function() {
 					if (ldnClicked === false) {
 						// ldnClicked is one. We have to make the font small
-						$("#home").css("font-size", "40px");
+						$("#home").css("font-size", "45px");
 						ldnClicked = true;
 
 					} else {
 						// ldnClicked is zero. We have to make the font big
 						// if the first part hold, do whatever is inside
-						$("#home").css("font-size", "30px");
+						$("#home").css("font-size", "40px");
 						ldnClicked = false;
 					}
 
@@ -114,9 +117,23 @@
 
 
 
+
+				// $(document).ready(function() {
+				// $("#intro").mouseover(function(){
+				//
+				// })
+				// })
+
+
+
+				// $("#home").mouseleave(function() {
+				// if (true)
+				// $("#home").css("color", " #0C395A ");
+				// });
+
 				$("#intro").mouseover(function() {
 					if (true)
-						$("#intro").css("font-size", "20px ");
+						$("#intro").css("font-size", "22px ");
 				});
 
 				$("#intro").mouseleave(function() {
@@ -132,7 +149,7 @@
 
 				$("#address").mouseleave(function() {
 					if (true)
-						$("#address").css("font-size", "18px ");
+						$("#address").css("font-size", "16px ");
 				});
 
 				$("#email").mouseover(function() {
@@ -142,98 +159,97 @@
 
 				$("#email").mouseleave(function() {
 					if (true)
-						$("#email").css("font-size", "18px ");
+						$("#email").css("font-size", "16px ");
 				});
-
 
 				$("#pedu").mouseover(function() {
 					if (true)
-						$("#pedu").css("font-size", "25px ");
+						$("#pedu").css("font-size", "20px ");
 				});
 
 				$("#pedu").mouseleave(function() {
 					if (true)
-						$("#pedu").css("font-size", "20px");
+						$("#pedu").css("font-size", "16px");
 				});
 
 				$("#pedu1").mouseover(function() {
 					if (true)
-						$("#pedu1").css("font-size", "25px ");
+						$("#pedu1").css("font-size", "20px ");
 				});
 
 				$("#pedu1").mouseleave(function() {
 					if (true)
-						$("#pedu1").css("font-size", "20px");
+						$("#pedu1").css("font-size", "16px");
 				});
 
 				$("#pedu2").mouseover(function() {
 					if (true)
-						$("#pedu2").css("font-size", "25px ");
+						$("#pedu2").css("font-size", "20px ");
 				});
 
 				$("#pedu2").mouseleave(function() {
 					if (true)
-						$("#pedu2").css("font-size", "20px");
+						$("#pedu2").css("font-size", "16px");
 				});
 
 				$("#pedu3").mouseover(function() {
 					if (true)
-						$("#pedu3").css("font-size", "25px ");
+						$("#pedu3").css("font-size", "20px");
 				});
 
 				$("#pedu3").mouseleave(function() {
 					if (true)
-						$("#pedu3").css("font-size", "20px");
+						$("#pedu3").css("font-size", "16px");
 				});
 
 				$("#pedu4").mouseover(function() {
 					if (true)
-						$("#pedu4").css("font-size", "25px ");
+						$("#pedu4").css("font-size", "20px");
 				});
 
 				$("#pedu4").mouseleave(function() {
 					if (true)
-						$("#pedu4").css("font-size", "20px");
+						$("#pedu4").css("font-size", "16px");
 				});
 
 				$("#pedu5").mouseover(function() {
 					if (true)
-						$("#pedu5").css("font-size", "25px ");
+						$("#pedu5").css("font-size", "20px");
 				});
 
 				$("#pedu5").mouseleave(function() {
 					if (true)
-						$("#pedu5").css("font-size", "20px");
+						$("#pedu5").css("font-size", "16px");
 				});
 
 				$("#pedu6").mouseover(function() {
 					if (true)
-						$("#pedu6").css("font-size", "25px ");
+						$("#pedu6").css("font-size", "20px");
 				});
 
 				$("#pedu6").mouseleave(function() {
 					if (true)
-						$("#pedu6").css("font-size", "20px");
+						$("#pedu6").css("font-size", "16px");
 				});
 
 				$("#pedu7").mouseover(function() {
 					if (true)
-						$("#pedu7").css("font-size", "25px ");
+						$("#pedu7").css("font-size", "20px");
 				});
 
 				$("#pedu7").mouseleave(function() {
 					if (true)
-						$("#pedu7").css("font-size", "20px");
+						$("#pedu7").css("font-size", "16px");
 				});
 
 				$("#pedu8").mouseover(function() {
 					if (true)
-						$("#pedu8").css("font-size", "25px ");
+						$("#pedu8").css("font-size", "20px");
 				});
 
 				$("#pedu8").mouseleave(function() {
 					if (true)
-						$("#pedu8").css("font-size", "20px");
+						$("#pedu8").css("font-size", "16px");
 				});
 
 				$("#second").click(function() {

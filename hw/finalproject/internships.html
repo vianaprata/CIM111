@@ -16,17 +16,19 @@
 	</script>
 	<!-- add this to EVERY PAGE -->
 	<meta charset="utf-8">
-	<title> Viana Barcellos Prata's Internships </title>
+	<meta name="viewport" content="width=device-width">
+	<title> Viana Barcellos Prata </title>
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Courgette|Dancing+Script|Sacramento&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Old+Standard+TT|Yatra+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="desktop.css">
 	<link rel="stylesheet" href="mobile.css">
-	<meta name="viewport" content="width=device-width">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Libre+Baskerville|Playfair+Display&display=swap" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 </head>
 
 <body id="third">
 
-	<main class="grid_introduction">
+	<main>
 		<header>
 			<section class="first box">
 				<h1 id="home"> Viana Barcellos Prata </h1>
@@ -53,9 +55,9 @@
 			<section id="intern">
 				<h2> Internships </h2>
 				<nav>
-					<a href="#Pacifico"> Pacifico Asset Management </a>
-					<a href="#dufry"> Dufry </a>
-					<a href="#liaisons"> Liaisons Corporation </a>
+					<a id="linkintern" href="#Pacifico"> Pacifico Asset Management </a>
+					<a id="linkintern" href="#dufry"> Dufry </a>
+					<a id="linkintern" href="#liaisons"> Liaisons Corporation </a>
 				</nav>
 			</section>
 
@@ -63,8 +65,9 @@
 			<h3 id="Pacifico"> Pacifico Asset Management - Rio de Janeiro, RJ/Brazil </h3>
 			<section class="grid_pacifico">
 				<article>
-					<h4> Intern July 2019 </h4>
-					<p> Rotational program within all areas of the asset management fund, focusing on macroeconomics. Assembled weekly reports on risk-factors for upper management. Compiled macroeconomic research on the impact of political factors
+					<h4 id="pedu"> Intern July 2019 </h4>
+					<p id="pedu1"> Rotational program within all areas of the asset management fund, focusing on macroeconomics. Assembled weekly reports on risk-factors for upper management. Compiled macroeconomic research on the impact of political
+						factors
 						for
 						the Global markets and LATAM. Responsible for tracking commodity performance for Coal and northern Brazilian agriculture. </p>
 				</article>
@@ -73,8 +76,9 @@
 			<h3 id="dufry"> Dufry Rio de Janeiro, RJ/Brazil </h3>
 			<section class="grid_dufry">
 				<article>
-					<h4> Intern June 2019 </h4>
-					<p> Began on the distribution center and the airport stores. Focused on the financial department; treasury, accounts payables, accounts receivables, accounting and the insurance department. Responsible for data aggregation of
+					<h4 id="pedu2"> Intern June 2019 </h4>
+					<p id="pedu3"> Began on the distribution center and the airport stores. Focused on the financial department; treasury, accounts payables, accounts receivables, accounting and the insurance department. Responsible for data
+						aggregation of
 						paychecks, assessed potential liability on contractual terms of commercial leases and analyzed the company’s financial statements. </p>
 				</article>
 				<article>
@@ -85,8 +89,9 @@
 			<h3 id="liaisons"> Liaisons Corporation Miami, FL/United States </h3>
 			<section class="grid_liaisons">
 				<article>
-					<h4> Intern January - April 2019 </h4>
-					<p> Worked on the planning and organization of corporate events. Responsible for customer management and setting up emails to prospective clients. Converted customers were inputted in the CRM tools of tracking. Helped assemble the
+					<h4 id="pedu4"> Intern January - April 2019 </h4>
+					<p id="pedu5"> Worked on the planning and organization of corporate events. Responsible for customer management and setting up emails to prospective clients. Converted customers were inputted in the CRM tools of tracking. Helped
+						assemble the
 						financial balances for events and created excel spreadsheets for the used vendors. </p>
 				</article>
 				<article>
@@ -103,28 +108,37 @@
 			$("#home").click(function() {
 				if (ldnClicked === false) {
 					// ldnClicked is one. We have to make the font small
-					$("#home").css("font-size", "40px");
+					$("#home").css("font-size", "45px");
 					ldnClicked = true;
 
 				} else {
 					// ldnClicked is zero. We have to make the font big
 					// if the first part hold, do whatever is inside
-					$("#home").css("font-size", "30px");
+					$("#home").css("font-size", "40px");
 					ldnClicked = false;
 				}
-
-				$("#links").click(function() {
-					if (true)
-						$("#links").css("background-color", "#78AABE");
-				});
 
 			});
 
 
 
+
+			// $(document).ready(function() {
+			// $("#intro").mouseover(function(){
+			//
+			// })
+			// })
+
+
+
+			// $("#home").mouseleave(function() {
+			// if (true)
+			// $("#home").css("color", " #0C395A ");
+			// });
+
 			$("#intro").mouseover(function() {
 				if (true)
-					$("#intro").css("font-size", "20px ");
+					$("#intro").css("font-size", "22px ");
 			});
 
 			$("#intro").mouseleave(function() {
@@ -140,7 +154,7 @@
 
 			$("#address").mouseleave(function() {
 				if (true)
-					$("#address").css("font-size", "18px ");
+					$("#address").css("font-size", "16px ");
 			});
 
 			$("#email").mouseover(function() {
@@ -150,7 +164,67 @@
 
 			$("#email").mouseleave(function() {
 				if (true)
-					$("#email").css("font-size", "18px ");
+					$("#email").css("font-size", "16px ");
+			});
+
+			$("#pedu").mouseover(function() {
+				if (true)
+					$("#pedu").css("font-size", "22px ");
+			});
+
+			$("#pedu").mouseleave(function() {
+				if (true)
+					$("#pedu").css("font-size", "18px");
+			});
+
+			$("#pedu1").mouseover(function() {
+				if (true)
+					$("#pedu1").css("font-size", "20px ");
+			});
+
+			$("#pedu1").mouseleave(function() {
+				if (true)
+					$("#pedu1").css("font-size", "16px");
+			});
+
+			$("#pedu2").mouseover(function() {
+				if (true)
+					$("#pedu2").css("font-size", "22px ");
+			});
+
+			$("#pedu2").mouseleave(function() {
+				if (true)
+					$("#pedu2").css("font-size", "18px");
+			});
+
+			$("#pedu3").mouseover(function() {
+				if (true)
+					$("#pedu3").css("font-size", "20px");
+			});
+
+			$("#pedu3").mouseleave(function() {
+				if (true)
+					$("#pedu3").css("font-size", "16px");
+			});
+
+			$("#pedu4").mouseover(function() {
+				if (true)
+					$("#pedu4").css("font-size", "22px");
+			});
+
+			$("#pedu4").mouseleave(function() {
+				if (true)
+					$("#pedu4").css("font-size", "18px");
+			});
+
+			$("#pedu5").mouseover(function() {
+				if (true)
+					$("#pedu5").css("font-size", "20px");
+			});
+
+			$("#pedu5").mouseleave(function() {
+				if (true)
+					$("#pedu5").css("font-size", "16px");
 			});
 
 			$("#third").click(function() {
