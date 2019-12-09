@@ -182,7 +182,11 @@ a:visited {
   border-radius: 5%;
 }
 
-#center {
+#center1 {
+  text-align: center;
+}
+
+#center2 {
   text-align: center;
 }
 
