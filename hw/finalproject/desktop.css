@@ -212,6 +212,18 @@ a:visited {
   text-align: center;
 }
 
+#pedu1 {
+  text-align: left;
+}
+
+#pedu3 {
+  text-align: left;
+}
+
+#pedu5 {
+  text-align: left;
+}
+
 .grid_pacifico {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -287,10 +299,11 @@ p {
 ul {
   font-family: "Playfair Display", serif;
   font-size: 16px;
+  text-align: left;
 }
 
 .main-info {
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
